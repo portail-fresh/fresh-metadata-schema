@@ -191,47 +191,7 @@
                                                 </xsd:sequence>
                                             </xsd:complexType>
                                         </xsd:element>
-                                        <xsd:element maxOccurs="unbounded"
-                                            name="PrimaryInvestigator">
-                                            <xsd:complexType>
-                                                <xsd:sequence>
-                                                  <xsd:element name="PIName" type="xsd:string">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Nom</xsd:documentation>
-                                                  <xsd:documentation xml:lang="en">Name</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                  <xsd:element name="Affiliation">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Organisme d'affiliation</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  <xsd:complexType>
-                                                  <xsd:sequence>
-                                                  <xsd:element name="OrganisationName"
-                                                  type="xsd:string">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Nom Organisme</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                  <xsd:element name="OrganisationPID"
-                                                  type="OrganisationPIDType">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">ID Organisme</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                  </xsd:sequence>
-                                                  </xsd:complexType>
-                                                  </xsd:element>
-                                                  <xsd:element name="PersonPID" type="PersonPIDType">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation>ID Personne</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                </xsd:sequence>
-                                            </xsd:complexType>
-                                        </xsd:element>
-                                        <xsd:element maxOccurs="unbounded" name="Contributor"
-                                            minOccurs="0">
+                                        <xsd:element maxOccurs="unbounded" name="Contributor">
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Contributeur</xsd:documentation>
                                             </xsd:annotation>
@@ -270,6 +230,42 @@
                                                   </xsd:restriction>
                                                   </xsd:simpleType>
                                                   </xsd:element>
+                                                  <xsd:element name="Address" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Adresse</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                  <xsd:element name="EMail" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">E-mail</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                  <xsd:element name="Telephone" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Téléphone</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                  <xsd:element name="Laboratory">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Structure de rattachement (Laboratoire /Département/Direction)</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  <xsd:complexType>
+                                                  <xsd:sequence>
+                                                  <xsd:element name="LaboratoryName"
+                                                  type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Nom Structure</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                  <xsd:element name="LaboratoryPID"
+                                                  type="OrganisationPIDType">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">ID Structure</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                  </xsd:sequence>
+                                                  </xsd:complexType>
+                                                  </xsd:element>
                                                   <xsd:element name="Affiliation">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Organisme d'affiliation</xsd:documentation>
@@ -294,48 +290,6 @@
                                                   <xsd:element name="PersonPID" type="PersonPIDType">
                                                   <xsd:annotation>
                                                   <xsd:documentation>ID Personne</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                </xsd:sequence>
-                                            </xsd:complexType>
-                                        </xsd:element>
-                                        <xsd:element maxOccurs="unbounded" minOccurs="0"
-                                            name="ContactPoint">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Point de contact</xsd:documentation>
-                                            </xsd:annotation>
-                                            <xsd:complexType>
-                                                <xsd:sequence>
-                                                  <xsd:element name="ContactName" type="xsd:string">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Nom</xsd:documentation>
-                                                  <xsd:documentation xml:lang="en">Name</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                  <xsd:element name="Affiliation">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Organisme d'affiliation</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  <xsd:complexType>
-                                                  <xsd:sequence>
-                                                  <xsd:element name="OrganisationName"
-                                                  type="xsd:string">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Nom Organisme</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                  <xsd:element name="OrganisationPID"
-                                                  type="OrganisationPIDType">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">ID Organisme</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                  </xsd:sequence>
-                                                  </xsd:complexType>
-                                                  </xsd:element>
-                                                  <xsd:element name="EMail" type="xsd:string">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">E-mail</xsd:documentation>
                                                   </xsd:annotation>
                                                   </xsd:element>
                                                 </xsd:sequence>
