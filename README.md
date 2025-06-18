@@ -4,12 +4,13 @@ This repository contains the XML Schema Definition (XSD) for the **FReSH (France
 
 ## Overview
 
-The schema is provided in [XSD format](https://en.wikipedia.org/wiki/XML_schema_(W3C)).
+The schema is provided following the [XML Schema Definition (XSD) language version 1.1](https://www.w3.org/TR/xmlschema11-1/).
 
 ## Files in this repository
 
 - `fresh-schema.xsd` — The main XML Schema file
 - `docs/` — The files generating the HTML documentation of the schema
+- `versions/` — The previous versions of the XML schema
 
 ## Documentation
 
