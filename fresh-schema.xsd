@@ -1074,6 +1074,7 @@
                                                   <xsd:enumeration
                                                   value="Mixte probabiliste et non probabiliste"/>
                                                   <xsd:enumeration value="Autre"/>
+                                                  <xsd:enumeration value="Par saturation"/>
                                                   </xsd:restriction>
                                                   </xsd:simpleType>
                                                   </xsd:element>
