@@ -10,6 +10,7 @@ The schema is provided following the [XML Schema Definition (XSD) language versi
 
 - `fresh-schema.xsd` — The main XML Schema file
 - `docs/` — The files generating the HTML documentation of the schema
+- `samples/` — Synthetic samples of XML files following the schema specifications
 - `versions/` — The previous versions of the XML schema
 
 ## Documentation
