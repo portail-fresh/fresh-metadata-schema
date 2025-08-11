@@ -154,10 +154,16 @@
                                                   <xsd:documentation xml:lang="fr">Acronyme</xsd:documentation>
                                                   </xsd:annotation>
                                                   </xsd:element>
+                                                  <xsd:element name="RegulatoryRequirements">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Pré-requis réglementaires</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  <xsd:complexType>
+                                                  <xsd:sequence>
                                                   <xsd:element name="ObtainedAuthorization"
                                                   maxOccurs="unbounded" minOccurs="1">
                                                   <xsd:annotation>
-                                                  <xsd:documentation>Autorisation obtenue</xsd:documentation>
+                                                  <xsd:documentation>Autorisations ou avis obtenus</xsd:documentation>
                                                   </xsd:annotation>
                                                   <xsd:complexType>
                                                   <xsd:sequence>
@@ -169,8 +175,9 @@
                                                   <xsd:restriction base="xsd:string">
                                                   <xsd:enumeration value="ANSM"/>
                                                   <xsd:enumeration value="CNIL"/>
-                                                  <xsd:enumeration value="Comité du secret"/>
+                                                  <xsd:enumeration value="CESREES"/>
                                                   <xsd:enumeration value="Autre"/>
+                                                  <xsd:enumeration value="CPP"/>
                                                   </xsd:restriction>
                                                   </xsd:simpleType>
                                                   </xsd:element>
@@ -180,16 +187,25 @@
                                                   <xsd:documentation xml:lang="fr">Autre, précision</xsd:documentation>
                                                   </xsd:annotation>
                                                   </xsd:element>
-                                                  <xsd:element name="AuthorisationCode"
-                                                  type="xsd:string"/>
                                                   </xsd:sequence>
                                                   </xsd:complexType>
                                                   </xsd:element>
-                                                  <xsd:element name="EthicalAdvise"
-                                                  type="xsd:string">
+                                                  <xsd:element maxOccurs="unbounded" minOccurs="0"
+                                                  name="ConformityDeclaration">
                                                   <xsd:annotation>
-                                                  <xsd:documentation>Avis ethique</xsd:documentation>
+                                                  <xsd:documentation xml:lang="fr">Declaration de conformité</xsd:documentation>
                                                   </xsd:annotation>
+                                                  <xsd:simpleType>
+                                                  <xsd:restriction base="xsd:string">
+                                                  <xsd:enumeration value="MR001"/>
+                                                  <xsd:enumeration value="MR002"/>
+                                                  <xsd:enumeration value="MR003"/>
+                                                  <xsd:enumeration value="MR004"/>
+                                                  </xsd:restriction>
+                                                  </xsd:simpleType>
+                                                  </xsd:element>
+                                                  </xsd:sequence>
+                                                  </xsd:complexType>
                                                   </xsd:element>
                                                 </xsd:sequence>
                                             </xsd:complexType>
@@ -228,7 +244,8 @@
                                                   </xsd:sequence>
                                                   </xsd:complexType>
                                                   </xsd:element>
-                                                  <xsd:element name="PersonPID" type="PersonPIDType">
+                                                  <xsd:element name="PersonPID" type="PersonPIDType"
+                                                  minOccurs="0">
                                                   <xsd:annotation>
                                                   <xsd:documentation>ID Personne</xsd:documentation>
                                                   </xsd:annotation>
@@ -515,15 +532,15 @@
                                                 <xsd:documentation xml:lang="fr">Résumé</xsd:documentation>
                                             </xsd:annotation>
                                         </xsd:element>
+                                        <xsd:element name="Purpose" type="xsd:string">
+                                            <xsd:annotation>
+                                                <xsd:documentation xml:lang="fr">Objectifs</xsd:documentation>
+                                            </xsd:annotation>
+                                        </xsd:element>
                                         <xsd:element name="ComplementaryInformation"
                                             type="xsd:string">
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Information complémentaire précisant l'étude</xsd:documentation>
-                                            </xsd:annotation>
-                                        </xsd:element>
-                                        <xsd:element name="Purpose" type="xsd:string">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Objectifs</xsd:documentation>
                                             </xsd:annotation>
                                         </xsd:element>
                                     </xsd:sequence>
@@ -556,7 +573,7 @@
                                                 </xsd:restriction>
                                             </xsd:simpleType>
                                         </xsd:element>
-                                        <xsd:element name="ObservationalStudy">
+                                        <xsd:element name="ObservationalStudy" minOccurs="0">
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Observationnelle</xsd:documentation>
                                             </xsd:annotation>
@@ -682,7 +699,7 @@
                                                 </xsd:sequence>
                                             </xsd:complexType>
                                         </xsd:element>
-                                        <xsd:element name="InterventionalStudy">
+                                        <xsd:element name="InterventionalStudy" minOccurs="0">
                                             <xsd:annotation>
                                                 <xsd:documentation>Etude interventionnelle (expérimentale)</xsd:documentation>
                                             </xsd:annotation>
@@ -1179,7 +1196,7 @@
                                             <xsd:complexType>
                                                 <xsd:sequence>
                                                   <xsd:element maxOccurs="unbounded" minOccurs="0"
-                                                  name="OtherSource">
+                                                  name="ThirdPartySource">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Source</xsd:documentation>
                                                   </xsd:annotation>
@@ -1338,12 +1355,14 @@
                                                   <xsd:documentation xml:lang="fr">Population générale</xsd:documentation>
                                                   </xsd:annotation>
                                                   </xsd:element>
-                                                  <xsd:element name="peopleWithMedicalCondition"
+                                                  <xsd:element name="patientsPopulation"
                                                   type="xsd:boolean">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Patients</xsd:documentation>
                                                   </xsd:annotation>
                                                   </xsd:element>
+                                                  <xsd:element name="handicapPopulation"
+                                                  type="xsd:boolean"/>
                                                   <xsd:element name="otherPopulation"
                                                   type="xsd:boolean">
                                                   <xsd:annotation>
@@ -1394,7 +1413,7 @@
                                                   <xsd:documentation xml:lang="fr">Region concerné (en France)</xsd:documentation>
                                                   </xsd:annotation>
                                                   </xsd:element>
-                                                  <xsd:element name="Detail" type="xsd:string">
+                                                  <xsd:element name="GeoDetail" type="xsd:string">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Détail du champ géographique</xsd:documentation>
                                                   </xsd:annotation>
@@ -1436,6 +1455,86 @@
                     </xsd:annotation>
                     <xsd:complexType>
                         <xsd:sequence>
+                            <xsd:element name="SampleSize">
+                                <xsd:annotation>
+                                    <xsd:documentation xml:lang="fr">Taille de la BDD</xsd:documentation>
+                                </xsd:annotation>
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="PlannedSampleSize" type="xsd:string">
+                                            <xsd:annotation>
+                                                <xsd:documentation>Prévue</xsd:documentation>
+                                            </xsd:annotation>
+                                        </xsd:element>
+                                        <xsd:element name="FinalSampleSize" type="xsd:string">
+                                            <xsd:annotation>
+                                                <xsd:documentation xml:lang="fr">Finale</xsd:documentation>
+                                            </xsd:annotation>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="DataQuality">
+                                <xsd:annotation>
+                                    <xsd:documentation xml:lang="fr">Qualité des données</xsd:documentation>
+                                </xsd:annotation>
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="UsedStandards">
+                                            <xsd:annotation>
+                                                <xsd:documentation xml:lang="fr">Standards ou nomenclatures employés</xsd:documentation>
+                                            </xsd:annotation>
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                  <xsd:element maxOccurs="unbounded" minOccurs="0"
+                                                  name="UsedStandard" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Standard/Nomenclature</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element maxOccurs="unbounded" minOccurs="0"
+                                            name="QualityProcedure" type="xsd:string">
+                                            <xsd:annotation>
+                                                <xsd:documentation xml:lang="fr">Procédure qualité</xsd:documentation>
+                                            </xsd:annotation>
+                                        </xsd:element>
+                                        <xsd:element name="VariableDictionnary">
+                                            <xsd:annotation>
+                                                <xsd:documentation xml:lang="fr">Dictionnaire des variables</xsd:documentation>
+                                            </xsd:annotation>
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                  <xsd:element name="VariableDictionnaryAvailable"
+                                                  type="xsd:boolean">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Existence d'un dictionnaire des variables</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                  <xsd:element name="VariableDictionnaryDetails"
+                                                  type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation>Précisions</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="OtherDocumentation" type="xsd:string">
+                                            <xsd:annotation>
+                                                <xsd:documentation xml:lang="fr">Autres documentations sur les données</xsd:documentation>
+                                            </xsd:annotation>
+                                        </xsd:element>
+                                        <xsd:element name="QualityAutoEvaluation" type="xsd:string">
+                                            <xsd:annotation>
+                                                <xsd:documentation xml:lang="fr">Auto-évaluation qualité des données</xsd:documentation>
+                                            </xsd:annotation>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
                             <xsd:element name="DataAccess">
                                 <xsd:annotation>
                                     <xsd:documentation xml:lang="fr">Accès aux données</xsd:documentation>
@@ -1583,26 +1682,7 @@
                                     <xsd:documentation xml:lang="fr">Identifiant pérenne du recueil de données </xsd:documentation>
                                 </xsd:annotation>
                             </xsd:element>
-                            <xsd:element name="SampleSize">
-                                <xsd:annotation>
-                                    <xsd:documentation xml:lang="fr">Taille de la BDD</xsd:documentation>
-                                </xsd:annotation>
-                                <xsd:complexType>
-                                    <xsd:sequence>
-                                        <xsd:element name="PlannedSampleSize" type="xsd:string">
-                                            <xsd:annotation>
-                                                <xsd:documentation>Prévue</xsd:documentation>
-                                            </xsd:annotation>
-                                        </xsd:element>
-                                        <xsd:element name="FinalSampleSize" type="xsd:string">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Finale</xsd:documentation>
-                                            </xsd:annotation>
-                                        </xsd:element>
-                                    </xsd:sequence>
-                                </xsd:complexType>
-                            </xsd:element>
-                            <xsd:element name="DataTypes">
+                            <xsd:element name="DataType">
                                 <xsd:annotation>
                                     <xsd:documentation xml:lang="fr">Type de données</xsd:documentation>
                                 </xsd:annotation>
@@ -1755,76 +1835,6 @@
                                                   </xsd:element>
                                                 </xsd:sequence>
                                             </xsd:complexType>
-                                        </xsd:element>
-                                    </xsd:sequence>
-                                </xsd:complexType>
-                            </xsd:element>
-                            <xsd:element name="DataQuality">
-                                <xsd:annotation>
-                                    <xsd:documentation xml:lang="fr">Qualité des données</xsd:documentation>
-                                </xsd:annotation>
-                                <xsd:complexType>
-                                    <xsd:sequence>
-                                        <xsd:element name="UsedStandards">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Standards ou nomenclatures employés</xsd:documentation>
-                                            </xsd:annotation>
-                                            <xsd:complexType>
-                                                <xsd:sequence>
-                                                  <xsd:element maxOccurs="unbounded" minOccurs="0"
-                                                  name="UsedStandard" type="xsd:string">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Standard/Nomenclature</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                </xsd:sequence>
-                                            </xsd:complexType>
-                                        </xsd:element>
-                                        <xsd:element name="QualityProcedures">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Procédures qualité utilisées</xsd:documentation>
-                                            </xsd:annotation>
-                                            <xsd:complexType>
-                                                <xsd:sequence>
-                                                  <xsd:element maxOccurs="unbounded" minOccurs="0"
-                                                  name="QualityProcedure" type="xsd:string">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Procédure qualité</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                </xsd:sequence>
-                                            </xsd:complexType>
-                                        </xsd:element>
-                                        <xsd:element name="VariableDictionnary">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Dictionnaire des variables</xsd:documentation>
-                                            </xsd:annotation>
-                                            <xsd:complexType>
-                                                <xsd:sequence>
-                                                  <xsd:element name="VariableDictionnaryAvailable"
-                                                  type="xsd:boolean">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Existence d'un dictionnaire des variables</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                  <xsd:element name="VariableDictionnaryDetails"
-                                                  type="xsd:string">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation>Précisions</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  </xsd:element>
-                                                </xsd:sequence>
-                                            </xsd:complexType>
-                                        </xsd:element>
-                                        <xsd:element name="OtherDocumentation" type="xsd:string">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Autres documentations sur les données</xsd:documentation>
-                                            </xsd:annotation>
-                                        </xsd:element>
-                                        <xsd:element name="QualityAutoEvaluation" type="xsd:string">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Auto-évaluation qualité des données</xsd:documentation>
-                                            </xsd:annotation>
                                         </xsd:element>
                                     </xsd:sequence>
                                 </xsd:complexType>

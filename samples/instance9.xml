@@ -5,183 +5,118 @@
     <TechnicalInfo>
         <Provenance>
             <SourceOrigin>PEF</SourceOrigin>
-            <SourceOriginId>LIVzGITZNGOxVF</SourceOriginId>
-            <Contribution>0</Contribution>
-            <MixedSource>1</MixedSource>
+            <SourceOriginId>SourceOriginId0</SourceOriginId>
+            <Contribution>false</Contribution>
+            <MixedSource>false</MixedSource>
         </Provenance>
         <VersionLang>fr</VersionLang>
         <OriginLang>fr</OriginLang>
-        <CreationDate>2025-06-18</CreationDate>
-        <LastUpdatedAuto>2025-12-03Z</LastUpdatedAuto>
-        <LastUpdatedManual>2026-10-30</LastUpdatedManual>
-        <RespValidation>1</RespValidation>
-        <AutoTranslation>0</AutoTranslation>
-        <Status>En attente de validation</Status>
+        <CreationDate>2006-05-04</CreationDate>
+        <LastUpdatedAuto>2006-05-04</LastUpdatedAuto>
+        <LastUpdatedManual>2006-05-04</LastUpdatedManual>
+        <RespValidation>false</RespValidation>
+        <AutoTranslation>false</AutoTranslation>
+        <Status>Brouillon</Status>
     </TechnicalInfo>
     <CollectionContext>
         <AdministrativeInformation>
             <General>
-                <Title>YxT</Title>
-                <Acronym>DShXVuwrmhG4UwPUOx</Acronym>
-                <ObtainedAuthorization>
-                    <AuthorizationSource>ANSM</AuthorizationSource>
-                    <OtherAuthorizationSource>fyuV29NHddx6gtx</OtherAuthorizationSource>
-                    <AuthorisationCode>r7jER3AMotkFEb35XGu</AuthorisationCode>
-                </ObtainedAuthorization>
-                <ObtainedAuthorization>
-                    <AuthorizationSource>ANSM</AuthorizationSource>
-                    <OtherAuthorizationSource>z6GenxtignL74ke1hzw3Vp1</OtherAuthorizationSource>
-                    <AuthorisationCode>d</AuthorisationCode>
-                </ObtainedAuthorization>
-                <EthicalAdvise>Uk9hY_S</EthicalAdvise>
+                <Title>Title0</Title>
+                <Acronym>Acronym0</Acronym>
+                <RegulatoryRequirements>
+                    <ObtainedAuthorization>
+                        <AuthorizationSource>ANSM</AuthorizationSource>
+                        <OtherAuthorizationSource>OtherAuthorizationSource0</OtherAuthorizationSource>
+                    </ObtainedAuthorization>
+                    <ObtainedAuthorization>
+                        <AuthorizationSource>ANSM</AuthorizationSource>
+                        <OtherAuthorizationSource>OtherAuthorizationSource1</OtherAuthorizationSource>
+                    </ObtainedAuthorization>
+                </RegulatoryRequirements>
             </General>
             <PrimaryInvestigator>
-                <PIName>KphuR</PIName>
+                <PIName>PIName0</PIName>
                 <Affiliation>
-                    <OrganisationName>cL39DSCaktx6_wGaaiUyub</OrganisationName>
+                    <OrganisationName>OrganisationName0</OrganisationName>
                     <OrganisationPID>
-                        <ID>KUAKb1ovvhFnT5PdvARhJL</ID>
-                        <URI>http://BvEnHFdD/</URI>
-                        <PIDSchema>SIRENE</PIDSchema>
-                    </OrganisationPID>
-                </Affiliation>
-                <PersonPID>
-                    <URI>http://JsJwMosk/</URI>
-                    <PIDSchema>IdRef</PIDSchema>
-                </PersonPID>
-            </PrimaryInvestigator>
-            <PrimaryInvestigator>
-                <PIName>cOCo</PIName>
-                <Affiliation>
-                    <OrganisationName>Aw</OrganisationName>
-                    <OrganisationPID>
-                        <ID>e0F-bTVM87z2LH2y3YlMSyhxzuv</ID>
-                        <URI>http://PjftULtp/</URI>
+                        <ID>ID0</ID>
+                        <URI>http://www.oxygenxml.com/</URI>
                         <PIDSchema>ROR</PIDSchema>
                     </OrganisationPID>
                 </Affiliation>
-                <PersonPID>
-                    <URI>http://qydFpgMo/</URI>
-                    <PIDSchema>IdRef</PIDSchema>
-                </PersonPID>
+            </PrimaryInvestigator>
+            <PrimaryInvestigator>
+                <PIName>PIName1</PIName>
+                <Affiliation>
+                    <OrganisationName>OrganisationName1</OrganisationName>
+                    <OrganisationPID>
+                        <ID>ID1</ID>
+                        <URI>http://www.oxygenxml.com/</URI>
+                        <PIDSchema>ROR</PIDSchema>
+                    </OrganisationPID>
+                </Affiliation>
             </PrimaryInvestigator>
             <OrganisationGovernance>
                 <Sponsor>
-                    <SponsorName>d</SponsorName>
-                    <SponsorType>QmSq8nQ7</SponsorType>
+                    <SponsorName>SponsorName0</SponsorName>
+                    <SponsorType>SponsorType0</SponsorType>
                     <SponsorPID>
-                        <ID>kM_ft-mdw7oTVELdTd90LThLQnvpw</ID>
-                        <URI>http://KTMAawVV/</URI>
-                        <PIDSchema>SIRENE</PIDSchema>
+                        <ID>ID2</ID>
+                        <URI>http://www.oxygenxml.com/</URI>
+                        <PIDSchema>ROR</PIDSchema>
                     </SponsorPID>
                 </Sponsor>
                 <Governance>
-                    <Committee>0</Committee>
-                    <CommitteeDetail>JX.U5</CommitteeDetail>
-                    <OtherGovernance>shZydr</OtherGovernance>
+                    <Committee>false</Committee>
+                    <CommitteeDetail>CommitteeDetail0</CommitteeDetail>
+                    <OtherGovernance>OtherGovernance0</OtherGovernance>
                 </Governance>
                 <Collaborations>
-                    <NetworkConsortium>0</NetworkConsortium>
-                    <CollaborationsDetail>NyZUoBuJOOVTWS34zaabQMIzb3</CollaborationsDetail>
+                    <NetworkConsortium>false</NetworkConsortium>
+                    <CollaborationsDetail>CollaborationsDetail0</CollaborationsDetail>
                 </Collaborations>
             </OrganisationGovernance>
         </AdministrativeInformation>
-        <StudyStatus>Etude arretée</StudyStatus>
+        <StudyStatus>Etude active</StudyStatus>
         <Theme>
-            <Summary>DqerHmBJZh2TnYb_busC-BntXsXNo</Summary>
-            <ComplementaryInformation>Ec-Kb9uSulU7Hi</ComplementaryInformation>
-            <Purpose>yqDUShx.pry6S4dh41</Purpose>
+            <Summary>Summary0</Summary>
+            <Purpose>Purpose0</Purpose>
+            <ComplementaryInformation>ComplementaryInformation0</ComplementaryInformation>
         </Theme>
     </CollectionContext>
     <StudyMethodology>
         <StudySchema>
-            <ResearchType>Interventionnelle (expérimentale)</ResearchType>
-            <ObservationalStudy>
-                <ObservationalStudyCategory>Etudes transversales</ObservationalStudyCategory>
-                <Registers>
-                    <RegistersDetails>Registres de morbidité</RegistersDetails>
-                </Registers>
-                <CohortLongitudinal>
-                    <RecrutementTiming>Autre</RecrutementTiming>
-                </CohortLongitudinal>
-                <Transverse>
-                    <TransverseDetails>Etudes transversales non répétées (hors cas-témoins)</TransverseDetails>
-                </Transverse>
-                <CaseControl>
-                    <CaseControlDetail>Sur cas-incident</CaseControlDetail>
-                </CaseControl>
-                <OtherResearchType>
-                    <OtherResearchTypeDetails>hM.a1</OtherResearchTypeDetails>
-                </OtherResearchType>
-            </ObservationalStudy>
-            <InterventionalStudy>
-                <ResearchPurpose>Soins de soutien</ResearchPurpose>
-                <TrialPhase>Phase 1</TrialPhase>
-                <InterventionalStudyModel>Séquentiel</InterventionalStudyModel>
-                <Allocation>
-                    <AllocationMode>Non randomisé</AllocationMode>
-                    <AllocationUnit>Individuelle</AllocationUnit>
-                </Allocation>
-                <Masking>
-                    <MaskingType>En ouvert</MaskingType>
-                    <BlindedMaskingDetail>Patient</BlindedMaskingDetail>
-                </Masking>
-                <Arms>
-                    <ArmsNumber>1127365523</ArmsNumber>
-                    <Arm>
-                        <ArmType>
-                            <ExperimentalArm>0</ExperimentalArm>
-                            <ActiveComparatorArm>true</ActiveComparatorArm>
-                            <PlaceboComparatorArm>1</PlaceboComparatorArm>
-                            <SharmComparatorArm>true</SharmComparatorArm>
-                            <NoInterventionArm>false</NoInterventionArm>
-                        </ArmType>
-                        <ArmName>MfzoQN4</ArmName>
-                        <ArmDescription>bthP5</ArmDescription>
-                    </Arm>
-                    <Arm>
-                        <ArmType>
-                            <ExperimentalArm>false</ExperimentalArm>
-                            <ActiveComparatorArm>true</ActiveComparatorArm>
-                            <PlaceboComparatorArm>0</PlaceboComparatorArm>
-                            <SharmComparatorArm>true</SharmComparatorArm>
-                            <NoInterventionArm>1</NoInterventionArm>
-                        </ArmType>
-                        <ArmName>JpcMas1yHQTeIrdKHbz-C_RLIp</ArmName>
-                        <ArmDescription>AfJV986r2bo</ArmDescription>
-                    </Arm>
-                </Arms>
-            </InterventionalStudy>
+            <ResearchType>Observationnelle</ResearchType>
         </StudySchema>
         <DataCollectionIntegration>
             <IsDataCollection>false</IsDataCollection>
             <DataCollection>
                 <CollectionProcess>
-                    <CollectionFrequency>zpcK2vUSDoWu6xEtawmemcX.</CollectionFrequency>
-                    <CollectionMode>Questionnaire auto-administré</CollectionMode>
+                    <CollectionFrequency>CollectionFrequency0</CollectionFrequency>
+                    <CollectionMode>Mesures et tests</CollectionMode>
                 </CollectionProcess>
                 <CollectionChronology>
-                    <CollectionStart>2025-07-22</CollectionStart>
-                    <CollectionEnd>2027-01-05</CollectionEnd>
+                    <CollectionStart>2006-05-04</CollectionStart>
+                    <CollectionEnd>2006-05-04</CollectionEnd>
                 </CollectionChronology>
                 <InclusionStrategy>Inclusion par exposition/facteur (selon une ou des variables individuelles d'intérêt)</InclusionStrategy>
                 <InclusionGroups>
-                    <NrInclusionGroupes>1194850418</NrInclusionGroupes>
+                    <NrInclusionGroupes>50</NrInclusionGroupes>
                 </InclusionGroups>
                 <SamplingMode>Dénombrement complet</SamplingMode>
                 <RecuitmentSources>
-                    <AdministrativeRecords>0</AdministrativeRecords>
-                    <HealthInsuranceRecords>true</HealthInsuranceRecords>
-                    <ThroughIndependentProfessionals>true</ThroughIndependentProfessionals>
-                    <ThroughOrganizations>1</ThroughOrganizations>
-                    <StatisticalPopulationBases>1</StatisticalPopulationBases>
-                    <HealthEventRegistry>0</HealthEventRegistry>
-                    <OtherBases>1</OtherBases>
-                    <OtherBasesDetails>DFqS2-GHBhAV-jrYYJm-</OtherBasesDetails>
+                    <AdministrativeRecords>false</AdministrativeRecords>
+                    <HealthInsuranceRecords>false</HealthInsuranceRecords>
+                    <ThroughIndependentProfessionals>false</ThroughIndependentProfessionals>
+                    <ThroughOrganizations>false</ThroughOrganizations>
+                    <StatisticalPopulationBases>false</StatisticalPopulationBases>
+                    <HealthEventRegistry>false</HealthEventRegistry>
+                    <OtherBases>false</OtherBases>
+                    <OtherBasesDetails>OtherBasesDetails0</OtherBasesDetails>
                 </RecuitmentSources>
                 <ActiveFollowUp>
                     <IsActiveFollowUp>false</IsActiveFollowUp>
-                    <FollowUptMode>Autre</FollowUptMode>
+                    <FollowUptMode>Suivi par contact avec le participant </FollowUptMode>
                 </ActiveFollowUp>
             </DataCollection>
             <IsDataIntegration>false</IsDataIntegration>
@@ -191,127 +126,126 @@
         <Population>
             <DemographicInfo>
                 <Sex>
-                    <Male>true</Male>
-                    <Female>1</Female>
-                    <OtherSex>0</OtherSex>
+                    <Male>false</Male>
+                    <Female>false</Female>
+                    <OtherSex>false</OtherSex>
                 </Sex>
                 <Age>
-                    <PreBirth>0</PreBirth>
-                    <Newborns>true</Newborns>
-                    <Infants>true</Infants>
+                    <PreBirth>false</PreBirth>
+                    <Newborns>false</Newborns>
+                    <Infants>false</Infants>
                     <EarlyChildhood>false</EarlyChildhood>
-                    <Children>1</Children>
+                    <Children>false</Children>
                     <Adolescents>false</Adolescents>
-                    <Adults>0</Adults>
-                    <Elderly>1</Elderly>
+                    <Adults>false</Adults>
+                    <Elderly>false</Elderly>
                 </Age>
             </DemographicInfo>
             <PopulationType>
-                <generalPopulation>true</generalPopulation>
-                <peopleWithMedicalCondition>1</peopleWithMedicalCondition>
-                <otherPopulation>0</otherPopulation>
-                <OtherPopulationType>e5aNa9MGRVuO9mL1L1_DkFy3k</OtherPopulationType>
+                <generalPopulation>false</generalPopulation>
+                <patientsPopulation>false</patientsPopulation>
+                <handicapPopulation>false</handicapPopulation>
+                <otherPopulation>false</otherPopulation>
+                <OtherPopulationType>OtherPopulationType0</OtherPopulationType>
             </PopulationType>
             <OtherClusion>
-                <InclusionCriterion>f</InclusionCriterion>
-                <InclusionCriterion>b6Y8TaSB9V</InclusionCriterion>
-                <ExclusionCriterion>ep7ziwm</ExclusionCriterion>
-                <ExclusionCriterion>B6VrxzmLkPR8</ExclusionCriterion>
+                <InclusionCriterion>InclusionCriterion0</InclusionCriterion>
+                <InclusionCriterion>InclusionCriterion1</InclusionCriterion>
+                <ExclusionCriterion>ExclusionCriterion0</ExclusionCriterion>
+                <ExclusionCriterion>ExclusionCriterion1</ExclusionCriterion>
             </OtherClusion>
             <GeographicalCoverage>
-                <Nation>rOD8zZr_PdLm</Nation>
-                <Nation>JJpQyMv28s</Nation>
-                <FranceRegion>WqvVO23hNewh0tD-oPb</FranceRegion>
-                <FranceRegion>b_S5iGA</FranceRegion>
-                <Detail>VkV</Detail>
+                <Nation>Nation0</Nation>
+                <Nation>Nation1</Nation>
+                <FranceRegion>FranceRegion0</FranceRegion>
+                <FranceRegion>FranceRegion1</FranceRegion>
+                <GeoDetail>GeoDetail0</GeoDetail>
             </GeographicalCoverage>
         </Population>
         <MeasuredHealthParameters>
-            <PrimaryEvaluationCriterion>bRM7xu99cFArPLaiXOXyJrZG-4</PrimaryEvaluationCriterion>
-            <SecondaryEvaluationCriterion>qdhE1Z</SecondaryEvaluationCriterion>
+            <PrimaryEvaluationCriterion>PrimaryEvaluationCriterion0</PrimaryEvaluationCriterion>
+            <SecondaryEvaluationCriterion>SecondaryEvaluationCriterion0</SecondaryEvaluationCriterion>
         </MeasuredHealthParameters>
     </StudyMethodology>
     <DataCharacteristics>
-        <DataAccess>
-            <IndividualDataAccess>Sous embargo</IndividualDataAccess>
-            <AggregatedDataAccess>hVYm7c5AJ-</AggregatedDataAccess>
-            <AnonymisedDataAccess>XGUE3oVNuZ</AnonymisedDataAccess>
-            <AccessConditions>ioN4tKW4</AccessConditions>
-            <AdditionalDataAccessLink>SND0lfhP1MduzFLsuY53</AdditionalDataAccessLink>
-            <NonDisclosureAgreement>rO</NonDisclosureAgreement>
-            <AccessRestrictions>FZmkWw8y7UdvWY7ktr42cf8</AccessRestrictions>
-            <DataLocation>UDrazwNB9Tosr4J9YQAex</DataLocation>
-            <DataInformationContact>XHx</DataInformationContact>
-            <DataFileCompleteness>A4XBO.l59rra</DataFileCompleteness>
-            <DataCitation>
-                <DataCitationRequirement>DtN2qaHw5ltO.</DataCitationRequirement>
-                <DataCitationStatement>pDTiFc</DataCitationStatement>
-            </DataCitation>
-            <MockSample>
-                <MockSampleAvailable>true</MockSampleAvailable>
-                <MockSampleLocation>o</MockSampleLocation>
-            </MockSample>
-            <DataAccessRequestTool>
-                <DataAccessRequestToolAvailable>false</DataAccessRequestToolAvailable>
-                <DataAccessRequestToolLocation>http://pPfTXKyP/</DataAccessRequestToolLocation>
-            </DataAccessRequestTool>
-        </DataAccess>
-        <DatasetPID>
-            <Identifier>jXDRhOxUMJn3.0tzLyvE</Identifier>
-            <URI>http://qDpnlbSa/</URI>
-            <PIDSchema>u</PIDSchema>
-        </DatasetPID>
-        <DatasetPID>
-            <Identifier>k_DynVIDLyD891t4XQ7</Identifier>
-            <URI>http://ONufDAkt/</URI>
-            <PIDSchema>qUxRxt8ajGqu_Iena90WlwL</PIDSchema>
-        </DatasetPID>
         <SampleSize>
-            <PlannedSampleSize>ptxzvhkC-SD0ZA._n</PlannedSampleSize>
-            <FinalSampleSize>D.7pP</FinalSampleSize>
+            <PlannedSampleSize>PlannedSampleSize0</PlannedSampleSize>
+            <FinalSampleSize>FinalSampleSize0</FinalSampleSize>
         </SampleSize>
-        <DataTypes>
-            <isClinicalData>0</isClinicalData>
-            <isParaclinicalData>false</isParaclinicalData>
-            <isBiologicalData>true</isBiologicalData>
-            <isEnvironmentalData>0</isEnvironmentalData>
-            <isSocioDemographicData>false</isSocioDemographicData>
-            <isBehaviouralData>1</isBehaviouralData>
-            <isGeospatialData>false</isGeospatialData>
-            <isEconomicalData>1</isEconomicalData>
-            <isGeneticalData>0</isGeneticalData>
-            <isPatientData>false</isPatientData>
-            <isOtherData>1</isOtherData>
-            <ClinicalDataDetails>l85i0_4llOC6P</ClinicalDataDetails>
-            <BiologicalDataDetails>wTEGz8Kmh.i13Oz-</BiologicalDataDetails>
-            <isDataInBiobank>0</isDataInBiobank>
-            <BiobankContent>
-                <isBlood>0</isBlood>
-                <isSerum>true</isSerum>
-                <isPlasma>0</isPlasma>
-                <isBloodCells>false</isBloodCells>
-                <isCordonBlood>0</isCordonBlood>
-                <isOtherFluid>false</isOtherFluid>
-                <isTissue>true</isTissue>
-                <isOralCells>1</isOralCells>
-                <isLignedCells>1</isLignedCells>
-                <isDNA>0</isDNA>
-                <isADNcARNm>false</isADNcARNm>
-                <isOtherContent>1</isOtherContent>
-            </BiobankContent>
-        </DataTypes>
         <DataQuality>
             <UsedStandards>
             </UsedStandards>
-            <QualityProcedures>
-            </QualityProcedures>
             <VariableDictionnary>
-                <VariableDictionnaryAvailable>true</VariableDictionnaryAvailable>
-                <VariableDictionnaryDetails>FcCGY3kSg8v35k</VariableDictionnaryDetails>
+                <VariableDictionnaryAvailable>false</VariableDictionnaryAvailable>
+                <VariableDictionnaryDetails>VariableDictionnaryDetails0</VariableDictionnaryDetails>
             </VariableDictionnary>
-            <OtherDocumentation>YaNmdxv-Zqks3goFVR</OtherDocumentation>
-            <QualityAutoEvaluation>k72FofsAo841vYyP</QualityAutoEvaluation>
+            <OtherDocumentation>OtherDocumentation0</OtherDocumentation>
+            <QualityAutoEvaluation>QualityAutoEvaluation0</QualityAutoEvaluation>
         </DataQuality>
+        <DataAccess>
+            <IndividualDataAccess>A définir</IndividualDataAccess>
+            <AggregatedDataAccess>AggregatedDataAccess0</AggregatedDataAccess>
+            <AnonymisedDataAccess>AnonymisedDataAccess0</AnonymisedDataAccess>
+            <AccessConditions>AccessConditions0</AccessConditions>
+            <AdditionalDataAccessLink>AdditionalDataAccessLink0</AdditionalDataAccessLink>
+            <NonDisclosureAgreement>NonDisclosureAgreement0</NonDisclosureAgreement>
+            <AccessRestrictions>AccessRestrictions0</AccessRestrictions>
+            <DataLocation>DataLocation0</DataLocation>
+            <DataInformationContact>DataInformationContact0</DataInformationContact>
+            <DataFileCompleteness>DataFileCompleteness0</DataFileCompleteness>
+            <DataCitation>
+                <DataCitationRequirement>DataCitationRequirement0</DataCitationRequirement>
+                <DataCitationStatement>DataCitationStatement0</DataCitationStatement>
+            </DataCitation>
+            <MockSample>
+                <MockSampleAvailable>false</MockSampleAvailable>
+                <MockSampleLocation>MockSampleLocation0</MockSampleLocation>
+            </MockSample>
+            <DataAccessRequestTool>
+                <DataAccessRequestToolAvailable>false</DataAccessRequestToolAvailable>
+                <DataAccessRequestToolLocation>http://www.oxygenxml.com/</DataAccessRequestToolLocation>
+            </DataAccessRequestTool>
+        </DataAccess>
+        <DatasetPID>
+            <Identifier>Identifier0</Identifier>
+            <URI>http://www.oxygenxml.com/</URI>
+            <PIDSchema>PIDSchema3</PIDSchema>
+        </DatasetPID>
+        <DatasetPID>
+            <Identifier>Identifier1</Identifier>
+            <URI>http://www.oxygenxml.com/</URI>
+            <PIDSchema>PIDSchema4</PIDSchema>
+        </DatasetPID>
+        <DataType>
+            <isClinicalData>false</isClinicalData>
+            <isParaclinicalData>false</isParaclinicalData>
+            <isBiologicalData>false</isBiologicalData>
+            <isEnvironmentalData>false</isEnvironmentalData>
+            <isSocioDemographicData>false</isSocioDemographicData>
+            <isBehaviouralData>false</isBehaviouralData>
+            <isGeospatialData>false</isGeospatialData>
+            <isEconomicalData>false</isEconomicalData>
+            <isGeneticalData>false</isGeneticalData>
+            <isPatientData>false</isPatientData>
+            <isOtherData>false</isOtherData>
+            <ClinicalDataDetails>ClinicalDataDetails0</ClinicalDataDetails>
+            <BiologicalDataDetails>BiologicalDataDetails0</BiologicalDataDetails>
+            <isDataInBiobank>false</isDataInBiobank>
+            <BiobankContent>
+                <isBlood>false</isBlood>
+                <isSerum>false</isSerum>
+                <isPlasma>false</isPlasma>
+                <isBloodCells>false</isBloodCells>
+                <isCordonBlood>false</isCordonBlood>
+                <isOtherFluid>false</isOtherFluid>
+                <isTissue>false</isTissue>
+                <isOralCells>false</isOralCells>
+                <isLignedCells>false</isLignedCells>
+                <isDNA>false</isDNA>
+                <isADNcARNm>false</isADNcARNm>
+                <isOtherContent>false</isOtherContent>
+            </BiobankContent>
+        </DataType>
     </DataCharacteristics>
     <RelatedDocuments>
     </RelatedDocuments>
