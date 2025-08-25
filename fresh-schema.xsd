@@ -839,6 +839,13 @@
                                                   </xsd:sequence>
                                                   </xsd:complexType>
                                                   </xsd:element>
+                                                  <xsd:element minOccurs="0" name="ArmTypeOther"
+                                                  type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Autre type de bras, précisions</xsd:documentation>
+                                                  <xsd:documentation xml:lang="en">Other arm type, details</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
                                                   <xsd:element name="ArmName" type="xsd:string">
                                                   <xsd:annotation>
                                                   <xsd:documentation>Nom du bras
@@ -1018,6 +1025,13 @@
                                                   </xsd:restriction>
                                                   </xsd:simpleType>
                                                   </xsd:element>
+                                                  <xsd:element minOccurs="0"
+                                                  name="InterventionTypeOther" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Autre type d'intervention/exposition, précisions</xsd:documentation>
+                                                  <xsd:documentation xml:lang="en">Other intervention/exposition type, details</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
                                                   <xsd:element name="InterventionDescritption"
                                                   type="xsd:string" minOccurs="0">
                                                   <xsd:annotation>
@@ -1068,7 +1082,14 @@
                                                   </xsd:annotation>
                                                   </xsd:element>
                                                   <xsd:element minOccurs="0"
-                                                  name="CollectionModeDetails">
+                                                  name="CollectionModeOther" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Autre mode de collecte, précisions</xsd:documentation>
+                                                  <xsd:documentation xml:lang="en">Other collection mode, details</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                  <xsd:element minOccurs="0"
+                                                  name="CollectionModeDetails" type="xsd:string">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Mode de collecte, précisions</xsd:documentation>
                                                   <xsd:documentation xml:lang="en">Collection mode, details</xsd:documentation>
@@ -1122,6 +1143,13 @@
                                                   </xsd:restriction>
                                                   </xsd:simpleType>
                                                   </xsd:element>
+                                                  <xsd:element minOccurs="0"
+                                                  name="InclusionStrategyOther" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Autre strategie d'inclusion</xsd:documentation>
+                                                  <xsd:documentation xml:lang="en">Other inclusion strategy, details</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
                                                   <xsd:element name="SamplingMode"
                                                   maxOccurs="unbounded" type="CvIdType">
                                                   <xsd:annotation>
@@ -1129,7 +1157,14 @@
                                                   <xsd:documentation xml:lang="en">Sampling procedure at inclusion</xsd:documentation>
                                                   </xsd:annotation>
                                                   </xsd:element>
-                                                  <xsd:element name="RecuitmentSources"
+                                                  <xsd:element minOccurs="0"
+                                                  name="SamplingModeOther" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Autre procedure d'échantillonnage, précisions</xsd:documentation>
+                                                  <xsd:documentation xml:lang="en">Other sampling procedure, details</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
+                                                  <xsd:element name="RecruitmentSources"
                                                   maxOccurs="unbounded">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Source du recrutement des participants </xsd:documentation>
@@ -1188,6 +1223,13 @@
                                                   </xsd:sequence>
                                                   </xsd:complexType>
                                                   </xsd:element>
+                                                  <xsd:element minOccurs="0"
+                                                  name="RecruitmentSourceOther" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Autre source de recrutement, précisions</xsd:documentation>
+                                                  <xsd:documentation xml:lang="en">Other recruitment source, details</xsd:documentation>
+                                                  </xsd:annotation>
+                                                  </xsd:element>
                                                   <xsd:element name="ActiveFollowUp" minOccurs="0">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Suivi actif des participants</xsd:documentation>
@@ -1202,7 +1244,7 @@
                                                   <xsd:documentation xml:lang="en">Is active followup?</xsd:documentation>
                                                   </xsd:annotation>
                                                   </xsd:element>
-                                                  <xsd:element name="FollowUptMode"
+                                                  <xsd:element name="FollowUpMode"
                                                   maxOccurs="unbounded">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Modalité de suivi</xsd:documentation>
@@ -1217,6 +1259,13 @@
                                                   <xsd:enumeration value="Autre"/>
                                                   </xsd:restriction>
                                                   </xsd:simpleType>
+                                                  </xsd:element>
+                                                  <xsd:element minOccurs="0"
+                                                  name="FollowUpModeOther" type="xsd:string">
+                                                  <xsd:annotation>
+                                                  <xsd:documentation xml:lang="fr">Autre modalité de suivi, précisions</xsd:documentation>
+                                                  <xsd:documentation xml:lang="en">Other follow-up mode, details</xsd:documentation>
+                                                  </xsd:annotation>
                                                   </xsd:element>
                                                   </xsd:sequence>
                                                   </xsd:complexType>
