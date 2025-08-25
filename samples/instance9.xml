@@ -93,7 +93,7 @@
                     <value></value>
                     <URI>http://www.oxygenxml.com/</URI>
                 </SamplingMode>
-                <RecuitmentSources>
+                <RecruitmentSources>
                     <AdministrativeRecords>false</AdministrativeRecords>
                     <HealthInsuranceRecords>false</HealthInsuranceRecords>
                     <ThroughIndependentProfessionals>false</ThroughIndependentProfessionals>
@@ -102,8 +102,8 @@
                     <HealthEventRegistry>false</HealthEventRegistry>
                     <OtherBases>false</OtherBases>
                     <OtherBasesDetails>OtherBasesDetails0</OtherBasesDetails>
-                </RecuitmentSources>
-                <RecuitmentSources>
+                </RecruitmentSources>
+                <RecruitmentSources>
                     <AdministrativeRecords>false</AdministrativeRecords>
                     <HealthInsuranceRecords>false</HealthInsuranceRecords>
                     <ThroughIndependentProfessionals>false</ThroughIndependentProfessionals>
@@ -112,7 +112,7 @@
                     <HealthEventRegistry>false</HealthEventRegistry>
                     <OtherBases>false</OtherBases>
                     <OtherBasesDetails>OtherBasesDetails1</OtherBasesDetails>
-                </RecuitmentSources>
+                </RecruitmentSources>
             </DataCollection>
             <IsDataIntegration>false</IsDataIntegration>
             <DataIntegration>
