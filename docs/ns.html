@@ -12,9 +12,7 @@
 				'properties_DatasetIDType_Identifier', 
 				'properties_DatasetIDType_URI', 
 				'properties_DatasetIDType_IDSchema', 
-				'properties_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode', 
-				'properties_FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_IsImport', 
-				'properties_FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_Provenance', 
+				'properties_FreshSchema_FreshSchema_TechnicalInfo_Provenance', 
 				'properties_FreshSchema_FreshSchema_TechnicalInfo_VersionLang', 
 				'properties_FreshSchema_FreshSchema_TechnicalInfo_OriginLang', 
 				'properties_FreshSchema_FreshSchema_TechnicalInfo_CreationDate', 
@@ -85,6 +83,7 @@
 				'properties_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Keyword', 
 				'properties_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_HealthDeterminant', 
 				'properties_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Summary', 
+				'properties_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_RareDiseases', 
 				'properties_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_ComplementaryInformation', 
 				'properties_FreshSchema_StudyMethodology', 
 				'properties_FreshSchema_FreshSchema_StudyMethodology_StudySchema', 
@@ -221,7 +220,7 @@
 				'properties_FreshSchema_FreshSchema_RelatedDocuments_UsingDataPublication', 
 				'properties_FreshSchema_FreshSchema_RelatedDocuments_ProtocolPublication', 
 				'properties_FreshSchema_FreshSchema_RelatedDocuments_OutcomePublication');
-var facetsBoxes= new Array('facets_FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_Provenance', 
+var facetsBoxes= new Array('facets_FreshSchema_FreshSchema_TechnicalInfo_Provenance', 
 				'facets_FreshSchema_FreshSchema_TechnicalInfo_VersionLang', 
 				'facets_FreshSchema_FreshSchema_TechnicalInfo_OriginLang', 
 				'facets_FreshSchema_FreshSchema_TechnicalInfo_Status', 
@@ -256,9 +255,7 @@ var diagramBoxes= new Array('diagram_FreshSchema',
 				'diagram_DatasetIDType_Identifier', 
 				'diagram_DatasetIDType_URI', 
 				'diagram_DatasetIDType_IDSchema', 
-				'diagram_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode', 
-				'diagram_FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_IsImport', 
-				'diagram_FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_Provenance', 
+				'diagram_FreshSchema_FreshSchema_TechnicalInfo_Provenance', 
 				'diagram_FreshSchema_FreshSchema_TechnicalInfo_VersionLang', 
 				'diagram_FreshSchema_FreshSchema_TechnicalInfo_OriginLang', 
 				'diagram_FreshSchema_FreshSchema_TechnicalInfo_CreationDate', 
@@ -329,6 +326,7 @@ var diagramBoxes= new Array('diagram_FreshSchema',
 				'diagram_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Keyword', 
 				'diagram_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_HealthDeterminant', 
 				'diagram_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Summary', 
+				'diagram_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_RareDiseases', 
 				'diagram_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_ComplementaryInformation', 
 				'diagram_FreshSchema_StudyMethodology', 
 				'diagram_FreshSchema_FreshSchema_StudyMethodology_StudySchema', 
@@ -476,9 +474,7 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
 				'annotations_DatasetIDType_Identifier', 
 				'annotations_DatasetIDType_URI', 
 				'annotations_DatasetIDType_IDSchema', 
-				'annotations_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode', 
-				'annotations_FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_IsImport', 
-				'annotations_FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_Provenance', 
+				'annotations_FreshSchema_FreshSchema_TechnicalInfo_Provenance', 
 				'annotations_FreshSchema_FreshSchema_TechnicalInfo_VersionLang', 
 				'annotations_FreshSchema_FreshSchema_TechnicalInfo_OriginLang', 
 				'annotations_FreshSchema_FreshSchema_TechnicalInfo_CreationDate', 
@@ -545,6 +541,7 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
 				'annotations_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Keyword', 
 				'annotations_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_HealthDeterminant', 
 				'annotations_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Summary', 
+				'annotations_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_RareDiseases', 
 				'annotations_FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_ComplementaryInformation', 
 				'annotations_FreshSchema_StudyMethodology', 
 				'annotations_FreshSchema_FreshSchema_StudyMethodology_StudySchema', 
@@ -1045,6 +1042,7 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Keyword" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Keyword</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Pathology" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Pathology</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Purpose" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Purpose</a></b></div>
+                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_RareDiseases" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/RareDiseases</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Summary" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Summary</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_DataCharacteristics" target="_self" title="No namespace">FreshSchema/DataCharacteristics</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_DataCharacteristics_DataAccess" target="_self" title="No namespace">FreshSchema/DataCharacteristics/DataAccess</a></b></div>
@@ -1182,9 +1180,6 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ObservationalStudy_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ObservationalStudy_OtherStudyCategory_OtherStudyCategoryDetails" target="_self" title="No namespace">FreshSchema/StudyMethodology/StudySchema/ObservationalStudy/OtherStudyCategory/OtherStudyCategoryDetails</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ResearchType" target="_self" title="No namespace">FreshSchema/StudyMethodology/StudySchema/ResearchType</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_TechnicalInfo" target="_self" title="No namespace">FreshSchema/TechnicalInfo</a></b></div>
-                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode</a></b></div>
-                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_IsImport" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode/IsImport</a></b></div>
-                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_Provenance" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode/Provenance</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_AutoTranslation" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AutoTranslation</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_CreationDate" target="_self" title="No namespace">FreshSchema/TechnicalInfo/CreationDate</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_LastUpdatedAuto" target="_self" title="No namespace">FreshSchema/TechnicalInfo/LastUpdatedAuto</a></b></div>
@@ -1194,6 +1189,7 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_MetadataContributor_ContributorName" target="_self" title="No namespace">FreshSchema/TechnicalInfo/MetadataContributor/ContributorName</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_OriginLang" target="_self" title="No namespace">FreshSchema/TechnicalInfo/OriginLang</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_OtherStudyId" target="_self" title="No namespace">FreshSchema/TechnicalInfo/OtherStudyId</a></b></div>
+                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_Provenance" target="_self" title="No namespace">FreshSchema/TechnicalInfo/Provenance</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_RespValidation" target="_self" title="No namespace">FreshSchema/TechnicalInfo/RespValidation</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_Status" target="_self" title="No namespace">FreshSchema/TechnicalInfo/Status</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_StudyId" target="_self" title="No namespace">FreshSchema/TechnicalInfo/StudyId</a></b></div>
@@ -1383,6 +1379,7 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Keyword" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Keyword</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Pathology" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Pathology</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Purpose" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Purpose</a></b></div>
+                                          <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_RareDiseases" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/RareDiseases</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Summary" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Summary</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_DataCharacteristics" target="_self" title="No namespace">FreshSchema/DataCharacteristics</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_DataCharacteristics_DataAccess" target="_self" title="No namespace">FreshSchema/DataCharacteristics/DataAccess</a></b></div>
@@ -1520,9 +1517,6 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ObservationalStudy_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ObservationalStudy_OtherStudyCategory_OtherStudyCategoryDetails" target="_self" title="No namespace">FreshSchema/StudyMethodology/StudySchema/ObservationalStudy/OtherStudyCategory/OtherStudyCategoryDetails</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ResearchType" target="_self" title="No namespace">FreshSchema/StudyMethodology/StudySchema/ResearchType</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_TechnicalInfo" target="_self" title="No namespace">FreshSchema/TechnicalInfo</a></b></div>
-                                          <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode</a></b></div>
-                                          <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_IsImport" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode/IsImport</a></b></div>
-                                          <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_Provenance" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode/Provenance</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_AutoTranslation" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AutoTranslation</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_CreationDate" target="_self" title="No namespace">FreshSchema/TechnicalInfo/CreationDate</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_LastUpdatedAuto" target="_self" title="No namespace">FreshSchema/TechnicalInfo/LastUpdatedAuto</a></b></div>
@@ -1532,6 +1526,7 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_MetadataContributor_ContributorName" target="_self" title="No namespace">FreshSchema/TechnicalInfo/MetadataContributor/ContributorName</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_OriginLang" target="_self" title="No namespace">FreshSchema/TechnicalInfo/OriginLang</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_OtherStudyId" target="_self" title="No namespace">FreshSchema/TechnicalInfo/OtherStudyId</a></b></div>
+                                          <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_Provenance" target="_self" title="No namespace">FreshSchema/TechnicalInfo/Provenance</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_RespValidation" target="_self" title="No namespace">FreshSchema/TechnicalInfo/RespValidation</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_Status" target="_self" title="No namespace">FreshSchema/TechnicalInfo/Status</a></b></div>
                                           <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_StudyId" target="_self" title="No namespace">FreshSchema/TechnicalInfo/StudyId</a></b></div>
@@ -1722,6 +1717,7 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Keyword" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Keyword</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Pathology" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Pathology</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Purpose" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Purpose</a></b></div>
+                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_RareDiseases" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/RareDiseases</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_CollectionContext_FreshSchema_FreshSchema_CollectionContext_Theme_Summary" target="_self" title="No namespace">FreshSchema/CollectionContext/Theme/Summary</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_DataCharacteristics" target="_self" title="No namespace">FreshSchema/DataCharacteristics</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_DataCharacteristics_DataAccess" target="_self" title="No namespace">FreshSchema/DataCharacteristics/DataAccess</a></b></div>
@@ -1859,9 +1855,6 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ObservationalStudy_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ObservationalStudy_OtherStudyCategory_OtherStudyCategoryDetails" target="_self" title="No namespace">FreshSchema/StudyMethodology/StudySchema/ObservationalStudy/OtherStudyCategory/OtherStudyCategoryDetails</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_StudyMethodology_FreshSchema_FreshSchema_StudyMethodology_StudySchema_ResearchType" target="_self" title="No namespace">FreshSchema/StudyMethodology/StudySchema/ResearchType</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_TechnicalInfo" target="_self" title="No namespace">FreshSchema/TechnicalInfo</a></b></div>
-                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode</a></b></div>
-                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_IsImport" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode/IsImport</a></b></div>
-                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_AcquisitionMode_Provenance" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AcquisitionMode/Provenance</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_AutoTranslation" target="_self" title="No namespace">FreshSchema/TechnicalInfo/AutoTranslation</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_CreationDate" target="_self" title="No namespace">FreshSchema/TechnicalInfo/CreationDate</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_LastUpdatedAuto" target="_self" title="No namespace">FreshSchema/TechnicalInfo/LastUpdatedAuto</a></b></div>
@@ -1871,6 +1864,7 @@ var annotationBoxes= new Array('annotations_fresh-schema.xsd',
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_FreshSchema_FreshSchema_TechnicalInfo_MetadataContributor_ContributorName" target="_self" title="No namespace">FreshSchema/TechnicalInfo/MetadataContributor/ContributorName</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_OriginLang" target="_self" title="No namespace">FreshSchema/TechnicalInfo/OriginLang</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_OtherStudyId" target="_self" title="No namespace">FreshSchema/TechnicalInfo/OtherStudyId</a></b></div>
+                                                <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_Provenance" target="_self" title="No namespace">FreshSchema/TechnicalInfo/Provenance</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_RespValidation" target="_self" title="No namespace">FreshSchema/TechnicalInfo/RespValidation</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_Status" target="_self" title="No namespace">FreshSchema/TechnicalInfo/Status</a></b></div>
                                                 <div><b><a href="fresh-schema.html#FreshSchema_FreshSchema_TechnicalInfo_StudyId" target="_self" title="No namespace">FreshSchema/TechnicalInfo/StudyId</a></b></div>

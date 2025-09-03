@@ -30,36 +30,21 @@
                                     <xsd:documentation xml:lang="en">Study ID</xsd:documentation>
                                 </xsd:annotation>
                             </xsd:element>
-                            <xsd:element name="AcquisitionMode">
+                            <xsd:element name="Provenance" default="PEF" minOccurs="0">
                                 <xsd:annotation>
-                                    <xsd:documentation xml:lang="fr">Mode d'acquisition de la fiche de metadonnées</xsd:documentation>
-                                    <xsd:documentation xml:lang="en">Acquisition mode of the metadata sheet</xsd:documentation>
-                                </xsd:annotation>
-                                <xsd:complexType>
-                                    <xsd:sequence>
-                                        <xsd:element name="IsImport" type="xsd:boolean">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Import?</xsd:documentation>
-                                            </xsd:annotation>
-                                        </xsd:element>
-                                        <xsd:element name="Provenance" default="PEF" minOccurs="0">
-                                            <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Provenance
+                                    <xsd:documentation xml:lang="fr">Provenance
 </xsd:documentation>
-                                                <xsd:documentation xml:lang="en">Provenance</xsd:documentation>
-                                            </xsd:annotation>
-                                            <xsd:simpleType>
-                                                <xsd:restriction base="xsd:string">
-                                                  <xsd:enumeration value="clinicaltrials.gov"/>
-                                                  <xsd:enumeration value="CTIS"/>
-                                                  <xsd:enumeration value="PROGEDO"/>
-                                                  <xsd:enumeration value="ECLAIRE"/>
-                                                  <xsd:enumeration value="PEF"/>
-                                                </xsd:restriction>
-                                            </xsd:simpleType>
-                                        </xsd:element>
-                                    </xsd:sequence>
-                                </xsd:complexType>
+                                    <xsd:documentation xml:lang="en">Provenance</xsd:documentation>
+                                </xsd:annotation>
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="clinicaltrials.gov"/>
+                                        <xsd:enumeration value="CTIS"/>
+                                        <xsd:enumeration value="PROGEDO"/>
+                                        <xsd:enumeration value="ECLAIRE"/>
+                                        <xsd:enumeration value="PEF"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
                             </xsd:element>
                             <xsd:element default="fr" name="VersionLang">
                                 <xsd:annotation>
@@ -597,6 +582,12 @@
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Résumé</xsd:documentation>
                                                 <xsd:documentation xml:lang="en">Summary </xsd:documentation>
+                                            </xsd:annotation>
+                                        </xsd:element>
+                                        <xsd:element name="RareDiseases" type="xsd:boolean">
+                                            <xsd:annotation>
+                                                <xsd:documentation xml:lang="en">Rare diseases</xsd:documentation>
+                                                <xsd:documentation xml:lang="fr">Maladies rares</xsd:documentation>
                                             </xsd:annotation>
                                         </xsd:element>
                                         <xsd:element name="ComplementaryInformation"
