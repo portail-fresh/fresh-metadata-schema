@@ -184,7 +184,7 @@
                                                   </xsd:annotation>
                                                   </xsd:element>
                                                   <xsd:element name="RegulatoryRequirements"
-                                                  minOccurs="1">
+                                                  minOccurs="0">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Pré-requis réglementaires</xsd:documentation>
                                                   <xsd:documentation xml:lang="en">Regulatory requirements</xsd:documentation>
@@ -926,7 +926,7 @@
                                                   </xsd:sequence>
                                                   </xsd:complexType>
                                                   </xsd:element>
-                                                  <xsd:element name="InclusionGroups">
+                                                  <xsd:element name="InclusionGroups" minOccurs="0">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Groupes à l'inclusion</xsd:documentation>
                                                   <xsd:documentation xml:lang="en">Inclusion groups</xsd:documentation>
@@ -1270,20 +1270,14 @@
                                                 <xsd:documentation xml:lang="en">Use of Individual Data from Other Data Sources</xsd:documentation>
                                             </xsd:annotation>
                                         </xsd:element>
-                                        <xsd:element name="DataIntegration">
+                                        <xsd:element maxOccurs="unbounded" minOccurs="0"
+                                            name="ThirdPartySource">
                                             <xsd:annotation>
-                                                <xsd:documentation xml:lang="fr">Utilisation des données individuelles issues d'autres sources des données</xsd:documentation>
+                                                <xsd:documentation xml:lang="fr">Source</xsd:documentation>
+                                                <xsd:documentation xml:lang="en">Source</xsd:documentation>
                                             </xsd:annotation>
                                             <xsd:complexType>
                                                 <xsd:sequence>
-                                                  <xsd:element maxOccurs="unbounded" minOccurs="0"
-                                                  name="ThirdPartySource">
-                                                  <xsd:annotation>
-                                                  <xsd:documentation xml:lang="fr">Source</xsd:documentation>
-                                                  <xsd:documentation xml:lang="en">Source</xsd:documentation>
-                                                  </xsd:annotation>
-                                                  <xsd:complexType>
-                                                  <xsd:sequence>
                                                   <xsd:element name="SourceName" type="xsd:string">
                                                   <xsd:annotation>
                                                   <xsd:documentation xml:lang="fr">Nom source</xsd:documentation>
@@ -1329,9 +1323,6 @@
                                                   <xsd:documentation xml:lang="fr">Autre type de source, précisions</xsd:documentation>
                                                   <xsd:documentation xml:lang="en">Other sourcetype, details</xsd:documentation>
                                                   </xsd:annotation>
-                                                  </xsd:element>
-                                                  </xsd:sequence>
-                                                  </xsd:complexType>
                                                   </xsd:element>
                                                 </xsd:sequence>
                                             </xsd:complexType>
@@ -1608,18 +1599,19 @@
                                             </xsd:annotation>
                                         </xsd:element>
                                         <xsd:element name="DataInformationContact" type="xsd:string"
-                                            maxOccurs="unbounded">
+                                            maxOccurs="unbounded" minOccurs="0">
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Personnes à contacter pour obtenir les renseignements concernant les données</xsd:documentation>
                                             </xsd:annotation>
                                         </xsd:element>
-                                        <xsd:element name="DataFileCompleteness" type="xsd:string">
+                                        <xsd:element name="DataFileCompleteness" type="xsd:string"
+                                            minOccurs="0">
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Complétude des fichiers des données</xsd:documentation>
                                                 <xsd:documentation xml:lang="en">Data file completeness</xsd:documentation>
                                             </xsd:annotation>
                                         </xsd:element>
-                                        <xsd:element name="DataCitation">
+                                        <xsd:element name="DataCitation" minOccurs="0">
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Obligations liées à l’usage des donnée</xsd:documentation>
                                                 <xsd:documentation xml:lang="en">Obligations rerlated to data use</xsd:documentation>
@@ -1643,7 +1635,7 @@
                                                 </xsd:sequence>
                                             </xsd:complexType>
                                         </xsd:element>
-                                        <xsd:element name="MockSample">
+                                        <xsd:element name="MockSample" minOccurs="0">
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Echantillon fictif</xsd:documentation>
                                                 <xsd:documentation>Mock sample</xsd:documentation>
@@ -1670,7 +1662,7 @@
                                                 </xsd:sequence>
                                             </xsd:complexType>
                                         </xsd:element>
-                                        <xsd:element name="DataAccessRequestTool">
+                                        <xsd:element name="DataAccessRequestTool" minOccurs="0">
                                             <xsd:annotation>
                                                 <xsd:documentation xml:lang="fr">Outil de demande d'accès aux données</xsd:documentation>
                                             </xsd:annotation>
@@ -1747,7 +1739,7 @@
                         </xsd:sequence>
                     </xsd:complexType>
                 </xsd:element>
-                <xsd:element name="RelatedDocuments">
+                <xsd:element name="RelatedDocuments" minOccurs="0">
                     <xsd:annotation>
                         <xsd:documentation xml:lang="fr">Documents connexes</xsd:documentation>
                     </xsd:annotation>
