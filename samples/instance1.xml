@@ -4,8 +4,8 @@
  xsi:noNamespaceSchemaLocation="file:/C:/Users/alessandro.morichett/dev/fresh-metadata-schema/fresh-schema.xsd">
     <TechnicalInfo>
         <StudyId>
-            <Identifier>Identifier0</Identifier>
             <IDSchema>IDSchema0</IDSchema>
+            <Identifier>Identifier0</Identifier>
         </StudyId>
         <VersionLang>fr</VersionLang>
         <OriginLang>fr</OriginLang>
@@ -19,100 +19,19 @@
             <ContributorName>ContributorName0</ContributorName>
         </MetadataContributor>
     </TechnicalInfo>
-    <CollectionContext>
-        <AdministrativeInformation>
-            <General>
-                <Title>Title0</Title>
-            </General>
-            <PrimaryInvestigator>
-                <PIName>PIName0</PIName>
-                <Affiliation>
-                    <OrganisationName>OrganisationName0</OrganisationName>
-                    <OrganisationPID>
-                        <URI>http://www.oxygenxml.com/</URI>
-                        <PIDSchema>ROR</PIDSchema>
-                    </OrganisationPID>
-                </Affiliation>
-            </PrimaryInvestigator>
-            <PrimaryInvestigator>
-                <PIName>PIName1</PIName>
-                <Affiliation>
-                    <OrganisationName>OrganisationName1</OrganisationName>
-                    <OrganisationPID>
-                        <URI>http://www.oxygenxml.com/</URI>
-                        <PIDSchema>ROR</PIDSchema>
-                    </OrganisationPID>
-                </Affiliation>
-            </PrimaryInvestigator>
-            <OrganisationGovernance>
-                <Sponsor>
-                    <SponsorName>SponsorName0</SponsorName>
-                    <SponsorType>SponsorType0</SponsorType>
-                </Sponsor>
-            </OrganisationGovernance>
-        </AdministrativeInformation>
-        <StudyStatus>Etude active</StudyStatus>
-        <Theme>
+    <StudyRelatedInfo>
+        <StudyOverview>
+            <Title>Title0</Title>
+            <StudyStatus>Etude active</StudyStatus>
             <Summary>Summary0</Summary>
+        </StudyOverview>
+        <Theme>
+            <IsHealthTheme>false</IsHealthTheme>
             <RareDiseases>false</RareDiseases>
         </Theme>
-    </CollectionContext>
-    <StudyMethodology>
-        <StudySchema>
-            <ResearchType>Observationnelle</ResearchType>
-            <AnalysisUnit>AnalysisUnit0</AnalysisUnit>
-        </StudySchema>
-        <DataCollectionIntegration>
-            <DataCollection>
-                <CollectionProcess>
-                    <CollectionFrequency>CollectionFrequency0</CollectionFrequency>
-                    <CollectionMode>
-                        <value></value>
-                        <URI>http://www.oxygenxml.com/</URI>
-                    </CollectionMode>
-                    <CollectionMode>
-                        <value></value>
-                        <URI>http://www.oxygenxml.com/</URI>
-                    </CollectionMode>
-                </CollectionProcess>
-                <CollectionChronology>
-                    <CollectionStart>2006-05-04</CollectionStart>
-                    <CollectionEnd>2006-05-04</CollectionEnd>
-                </CollectionChronology>
-                <InclusionStrategy>Inclusion par exposition/facteur (selon une ou des variables individuelles d'intérêt)</InclusionStrategy>
-                <InclusionStrategy>Inclusion par exposition/facteur (selon une ou des variables individuelles d'intérêt)</InclusionStrategy>
-                <SamplingMode>
-                    <value></value>
-                    <URI>http://www.oxygenxml.com/</URI>
-                </SamplingMode>
-                <SamplingMode>
-                    <value></value>
-                    <URI>http://www.oxygenxml.com/</URI>
-                </SamplingMode>
-                <RecruitmentSources>
-                    <AdministrativeRecords>false</AdministrativeRecords>
-                    <HealthInsuranceRecords>false</HealthInsuranceRecords>
-                    <ThroughIndependentProfessionals>false</ThroughIndependentProfessionals>
-                    <ThroughOrganizations>false</ThroughOrganizations>
-                    <StatisticalPopulationBases>false</StatisticalPopulationBases>
-                    <HealthEventRegistry>false</HealthEventRegistry>
-                    <OtherBases>false</OtherBases>
-                    <OtherBasesDetails>OtherBasesDetails0</OtherBasesDetails>
-                </RecruitmentSources>
-                <RecruitmentSources>
-                    <AdministrativeRecords>false</AdministrativeRecords>
-                    <HealthInsuranceRecords>false</HealthInsuranceRecords>
-                    <ThroughIndependentProfessionals>false</ThroughIndependentProfessionals>
-                    <ThroughOrganizations>false</ThroughOrganizations>
-                    <StatisticalPopulationBases>false</StatisticalPopulationBases>
-                    <HealthEventRegistry>false</HealthEventRegistry>
-                    <OtherBases>false</OtherBases>
-                    <OtherBasesDetails>OtherBasesDetails1</OtherBasesDetails>
-                </RecruitmentSources>
-            </DataCollection>
-            <IsDataIntegration>false</IsDataIntegration>
-        </DataCollectionIntegration>
         <Population>
+            <PopulationType>PopulationType0</PopulationType>
+            <PopulationType>PopulationType1</PopulationType>
             <DemographicInfo>
                 <Sex>
                     <value></value>
@@ -131,8 +50,6 @@
                     <URI>http://www.oxygenxml.com/</URI>
                 </Age>
             </DemographicInfo>
-            <PopulationType>PopulationType0</PopulationType>
-            <PopulationType>PopulationType1</PopulationType>
             <OtherClusion>
             </OtherClusion>
             <GeographicalCoverage>
@@ -146,32 +63,99 @@
                 </Nation>
             </GeographicalCoverage>
         </Population>
+    </StudyRelatedInfo>
+    <AdministrativeInformation>
+        <IsContributorPI>false</IsContributorPI>
+        <PrimaryInvestigator>
+            <PIName>PIName0</PIName>
+            <PIMail>PIMail0</PIMail>
+            <PIAffiliation>
+                <OrganisationName>OrganisationName0</OrganisationName>
+                <OrganisationPID>
+                    <PIDSchema>ROR</PIDSchema>
+                    <URI>http://www.oxygenxml.com/</URI>
+                </OrganisationPID>
+            </PIAffiliation>
+        </PrimaryInvestigator>
+        <PrimaryInvestigator>
+            <PIName>PIName1</PIName>
+            <PIMail>PIMail1</PIMail>
+            <PIAffiliation>
+                <OrganisationName>OrganisationName1</OrganisationName>
+                <OrganisationPID>
+                    <PIDSchema>ROR</PIDSchema>
+                    <URI>http://www.oxygenxml.com/</URI>
+                </OrganisationPID>
+            </PIAffiliation>
+        </PrimaryInvestigator>
+        <OrganisationGovernance>
+            <Sponsor>
+                <SponsorName>SponsorName0</SponsorName>
+                <SponsorType>SponsorType0</SponsorType>
+            </Sponsor>
+        </OrganisationGovernance>
+    </AdministrativeInformation>
+    <StudyMethodology>
+        <AnalysisUnit>AnalysisUnit0</AnalysisUnit>
+        <ResearchType>Observationnelle</ResearchType>
         <Outcomes>
             <PrimaryOutcomes>PrimaryOutcomes0</PrimaryOutcomes>
         </Outcomes>
     </StudyMethodology>
-    <DataCharacteristics>
-        <SampleSize>
-            <PlannedSampleSize>PlannedSampleSize0</PlannedSampleSize>
-        </SampleSize>
-        <DataQuality>
-            <VariableDictionnary>
-                <VariableDictionnaryAvailable>false</VariableDictionnaryAvailable>
-            </VariableDictionnary>
-        </DataQuality>
+    <DataCollectionAccess>
+        <DataCollectionIntegration>
+            <SampleSize>
+                <PlannedSampleSize>PlannedSampleSize0</PlannedSampleSize>
+            </SampleSize>
+            <CollectionChronology>
+                <CollectionStart>2006-05-04</CollectionStart>
+                <CollectionEnd>2006-05-04</CollectionEnd>
+                <CollectionFrequency>CollectionFrequency0</CollectionFrequency>
+            </CollectionChronology>
+            <DataCollection>
+                <CollectionProcess>
+                    <CollectionMode>
+                        <value></value>
+                        <URI>http://www.oxygenxml.com/</URI>
+                    </CollectionMode>
+                    <CollectionMode>
+                        <value></value>
+                        <URI>http://www.oxygenxml.com/</URI>
+                    </CollectionMode>
+                </CollectionProcess>
+                <RecruitmentSource>RecruitmentSource0</RecruitmentSource>
+                <RecruitmentSource>RecruitmentSource1</RecruitmentSource>
+                <DataTypes>
+                    <DataType>DataType0</DataType>
+                    <DataType>DataType1</DataType>
+                    <BiobankContent>BiobankContent0</BiobankContent>
+                    <BiobankContent>BiobankContent1</BiobankContent>
+                </DataTypes>
+                <InclusionStrategy>Inclusion par exposition/facteur (selon une ou des variables individuelles d'intérêt)</InclusionStrategy>
+                <InclusionStrategy>Inclusion par exposition/facteur (selon une ou des variables individuelles d'intérêt)</InclusionStrategy>
+                <SamplingMode>
+                    <value></value>
+                    <URI>http://www.oxygenxml.com/</URI>
+                </SamplingMode>
+                <SamplingMode>
+                    <value></value>
+                    <URI>http://www.oxygenxml.com/</URI>
+                </SamplingMode>
+            </DataCollection>
+            <IsDataIntegration>false</IsDataIntegration>
+            <ConformityDeclaration>MR001</ConformityDeclaration>
+        </DataCollectionIntegration>
         <DataAccess>
-            <IndividualDataAccess>
-                <value></value>
-                <URI>http://www.oxygenxml.com/</URI>
-            </IndividualDataAccess>
+            <DataQuality>
+            </DataQuality>
+            <DataAvailability>
+                <IndividualDataAccess>
+                    <value></value>
+                    <URI>http://www.oxygenxml.com/</URI>
+                </IndividualDataAccess>
+            </DataAvailability>
+            <UseStatement>
+            </UseStatement>
         </DataAccess>
-        <DataTypes>
-            <DataType>DataType0</DataType>
-            <DataType>DataType1</DataType>
-            <BiobankContent>
-            </BiobankContent>
-            <BiobankContent>
-            </BiobankContent>
-        </DataTypes>
-    </DataCharacteristics>
+    </DataCollectionAccess>
 </FreshSchema>
