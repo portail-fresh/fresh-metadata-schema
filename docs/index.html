@@ -5,6 +5,7 @@
   <title>FReSH Metadata Schema Documentation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="docHtml.css">
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,21 +13,34 @@
       max-width: 900px;
     }
 
+    /* Header layout */
     header {
-      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 25px;
       margin-bottom: 40px;
     }
 
     header img {
-      max-width: 300px;
-      margin-bottom: 15px;
+      max-width: 220px;
+    }
+
+    .title-block {
+      display: flex;
+      flex-direction: column;
     }
 
     h1 {
       color: #003366;
-      margin-bottom: 10px;
+      margin: 0;
     }
 
+    header p {
+      margin: 6px 0 0 0;
+      font-size: 16px;
+    }
+
+    /* Cards */
     .card {
       margin-top: 20px;
       padding: 20px;
@@ -55,8 +69,11 @@
 
   <header>
     <img src="/fresh-metadata-schema/img/Logo_FReSH_Full_Color_RVB.svg" alt="FReSH Logo">
-    <h1>FReSH Metadata Schema</h1>
-    <p>France Recherche en Santé Humaine</p>
+
+    <div class="title-block">
+      <h1>FReSH Metadata Schema</h1>
+      <p>France Recherche en Santé Humaine</p>
+    </div>
   </header>
 
   <p>
