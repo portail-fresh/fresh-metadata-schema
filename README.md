@@ -17,4 +17,4 @@ The schema is provided following the [XML Schema Definition (XSD) language versi
 
 You can access the full documentation and element reference for the FReSH schema here:
 
-[FReSH Schema Documentation](https://portail-fresh.github.io/fresh-metadata-schema/)  
+[FReSH Schema Documentation](https://portail-fresh.github.io/fresh-metadata-schema/docs/img/Logo_FReSH_Full_Color_RVB.svg)  
