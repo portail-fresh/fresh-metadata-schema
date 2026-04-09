@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FDS#FDS1444">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FDS"/>
+    <skos:notation>FDS1444</skos:notation>
+    <skos:prefLabel xml:lang="fr">DOI</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">DOI</skos:prefLabel>
+    <skos:definition xml:lang="fr">Digital Object Identifier - Lien permanent ou persistant attribué à une ressource numérique, généralement géré par des agences DOI comme CrossRef ou DataCite, pour en faciliter la localisation et la citation.</skos:definition>
+    <skos:definition xml:lang="en">Digital Object Identifier - Permanent or persistent link assigned to a digital resource, usually managed by DOI agencies such as CrossRef or DataCite, to facilitate its location and citation.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FDS#FDS1570">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FDS"/>
+    <skos:notation>FDS1570</skos:notation>
+    <skos:prefLabel xml:lang="fr">Handle</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Handle</skos:prefLabel>
+    <skos:definition xml:lang="fr">Identifiant persistant attribué àune ressource numérique, géré par le Handle System (CNRI).</skos:definition>
+    <skos:definition xml:lang="en">Persistent identifier assigned to a digital resource, managed by the Handle System (CNRI).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FDS#FDS6835">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FDS"/>
+    <skos:notation>FDS6835</skos:notation>
+    <skos:prefLabel xml:lang="fr">Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">À utiliser lorsque le type d'identifiant est connu, mais introuvable dans la liste.</skos:definition>
+    <skos:definition xml:lang="en">Used when the identifier type is known but cannot be found in the list.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FDS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">DatasetPIDSchema</dct:title>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR9745">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR9745</skos:notation>
+    <skos:prefLabel xml:lang="fr">Centre-Val de Loire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Centre-Val de Loire</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-CVL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR5275">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR5275</skos:notation>
+    <skos:prefLabel xml:lang="fr">Ile-de-France</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ile-de-France</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-IDF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR3123">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR3123</skos:notation>
+    <skos:prefLabel xml:lang="fr">Auvergne Rhône-Alpes</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Auvergne Rhône-Alpes</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-ARA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR9966">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR9966</skos:notation>
+    <skos:prefLabel xml:lang="fr">Hauts-de-France</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hauts-de-France</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-HDF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR1294">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR1294</skos:notation>
+    <skos:prefLabel xml:lang="fr">Pays de la Loire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Pays de la Loire</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-PDL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR1039">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR1039</skos:notation>
+    <skos:prefLabel xml:lang="fr">Martinique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Martinique</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-972"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR4994">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR4994</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bretagne</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bretagne</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-BRE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR6735">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR6735</skos:notation>
+    <skos:prefLabel xml:lang="fr">Provence - Alpes - Côte d'Azur</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Provence - Alpes - Côte d'Azur</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-PAC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR2249">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR2249</skos:notation>
+    <skos:prefLabel xml:lang="fr">Grand Est</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Grand Est</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-GES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR5384">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR5384</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bourgogne Franche-Comté</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bourgogne Franche-Comté</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-BFC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR4721">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR4721</skos:notation>
+    <skos:prefLabel xml:lang="fr">Corse</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Corse</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-20R"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR4657">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR4657</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guyane</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guyane</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-973"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR2869">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR2869</skos:notation>
+    <skos:prefLabel xml:lang="fr">Nouvelle-Aquitaine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nouvelle-Aquitaine</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-NAQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR5961">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR5961</skos:notation>
+    <skos:prefLabel xml:lang="fr">Normandie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Normandie</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-NOR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR2066">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR2066</skos:notation>
+    <skos:prefLabel xml:lang="fr">Occitanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Occitanie</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-OCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR9758">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR9758</skos:notation>
+    <skos:prefLabel xml:lang="fr">La Réunion</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">La Réunion</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-974"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">FranceRegions</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR4497">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR4497</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mayotte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mayotte</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-976"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FFR#FFR2077">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FFR"/>
+    <skos:notation>FFR2077</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guadeloupe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guadeloupe</skos:prefLabel>
+    <skos:exactMatch rdf:resource="FR-971"/>
+  </rdf:Description>
+</rdf:RDF>

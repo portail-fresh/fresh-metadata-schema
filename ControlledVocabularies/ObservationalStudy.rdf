@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FOS#FOS6567">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FOS"/>
+    <skos:notation>FOS6567</skos:notation>
+    <skos:prefLabel xml:lang="fr">Registre de morbidité</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Morbidity registry</skos:prefLabel>
+    <skos:definition xml:lang="fr">Recueil continu de données individuelles portant sur un ou plusieurs événements de santé, visant l’exhaustivité dans une population géographiquement définie, à des fins de recherche et/ou de santé publique.</skos:definition>
+    <skos:definition xml:lang="en">Continuous collection of individual data on one or more health events, aiming for completeness in a geographically defined population, for research and/or public health purposes.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FOS#FOS1108">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FOS"/>
+    <skos:notation>FOS1108</skos:notation>
+    <skos:prefLabel xml:lang="fr">Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">À utiliser si le type d’étude est connu mais ne correspond à aucune des catégories précédentes.</skos:definition>
+    <skos:definition xml:lang="en">Use if the study type is known but doesn’t fit into the listed categories.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FOS#FOS2667">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FOS"/>
+    <skos:notation>FOS2667</skos:notation>
+    <skos:prefLabel xml:lang="fr">Registre des pratiques</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Practices registry</skos:prefLabel>
+    <skos:definition xml:lang="fr">Recueil systématique de données standardisées issues de la pratique clinique sur un sujet spécifique, visant à surveiller, évaluer et améliorer les pratiques de soins de santé.</skos:definition>
+    <skos:definition xml:lang="en">Systematically collected set of standardized data from clinical practice on a specific topic, intended to monitor, evaluate, and improve healthcare practices.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FOS#FOS6552">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FOS"/>
+    <skos:notation>FOS6552</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cohorte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cohort study</skos:prefLabel>
+    <skos:definition xml:lang="fr">Étude suivant un groupe de personnes dans le temps pour observer l’apparition d’événements de santé.</skos:definition>
+    <skos:definition xml:lang="en">Study that follows a group of people over time to observe health outcomes.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FOS#FOS7770">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FOS"/>
+    <skos:notation>FOS7770</skos:notation>
+    <skos:prefLabel xml:lang="fr">Etude de cas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Case study</skos:prefLabel>
+    <skos:definition xml:lang="fr">Observation portant sur un groupe unique d'individus présentant des caractéristiques spécifiques.</skos:definition>
+    <skos:definition xml:lang="en">Observation of a single group of individuals with specific characteristics.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FOS#FOS9042">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FOS"/>
+    <skos:notation>FOS9042</skos:notation>
+    <skos:prefLabel xml:lang="fr">Etude cas-témoins</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Case-control study</skos:prefLabel>
+    <skos:definition xml:lang="fr">Étude comparant un groupe d'individus (cas) présentant des caractéristiques spécifiques (par exemple, même affection ou même exposition) à un ou plusieurs groupes présentant des caractéristiques différentes, mais similaires à tous autres égards (temoins).</skos:definition>
+    <skos:definition xml:lang="en">Study comparing a group of individuals (cases) with specific characteristics (e.g., same condition or exposure) compared to group(s) with different characteristics, but otherwise similar (controls).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FOS#FOS4325">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FOS"/>
+    <skos:notation>FOS4325</skos:notation>
+    <skos:prefLabel xml:lang="fr">Etude cas croisé</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Case-crossover study</skos:prefLabel>
+    <skos:definition xml:lang="fr">Etude comparant l’exposition d’un même individu à différents moments pour évaluer son effet sur un événement.</skos:definition>
+    <skos:definition xml:lang="en">Study comparing an individual’s exposure at different times to assess its effect on an event.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FOS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">ObservationalStudy</dct:title>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FPV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">Provenance</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FPV#FPV1809">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FPV"/>
+    <skos:notation>FPV1809</skos:notation>
+    <skos:prefLabel xml:lang="fr">FReSH (France Recherche en Santé Humaine)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">FReSH (France Recherche en Santé Humaine)</skos:prefLabel>
+    <skos:definition xml:lang="fr">Portail recensant les collectes de données individuelles relatives à la santé réalisées dans le cadre de la recherche française. </skos:definition>
+    <skos:definition xml:lang="en">Portal listing individual health data collections carried out as part of French research. </skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FPV#FPV4434">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FPV"/>
+    <skos:notation>FPV4434</skos:notation>
+    <skos:prefLabel xml:lang="fr">Clinical Trials</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Clinical Trials</skos:prefLabel>
+    <skos:definition xml:lang="fr">Site web et base de données en ligne consacrés aux études cliniques et aux informations relatives à leurs résultats.  (https://clinicaltrials.gov/)</skos:definition>
+    <skos:definition xml:lang="en">Website and online database of clinical research studies and information about their results (https://clinicaltrials.gov/).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FPV#FPV4669">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FPV"/>
+    <skos:notation>FPV4669</skos:notation>
+    <skos:prefLabel xml:lang="fr">PEF (Portail Epidémiologie France)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">PEF (Epidemiology France Portal)</skos:prefLabel>
+    <skos:definition xml:lang="fr">Catalogue des bases de données individuelles en santé en France (https://epidemiologie-france.aviesan.fr/).</skos:definition>
+    <skos:definition xml:lang="en">Catalogue of the individual health databases in France (https://epidemiologie-france.aviesan.fr/en).</skos:definition>
+  </rdf:Description>
+</rdf:RDF>

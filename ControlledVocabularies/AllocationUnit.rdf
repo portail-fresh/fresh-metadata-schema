@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FAU#FAU6589">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FAU"/>
+    <skos:notation>FAU6589</skos:notation>
+    <skos:prefLabel xml:lang="fr">Individuelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Individuelle</skos:prefLabel>
+    <skos:definition xml:lang="fr">Intervention attribuée au niveau individuel.</skos:definition>
+    <skos:definition xml:lang="en">Individual-level intervention.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FAU#FAU6745">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FAU"/>
+    <skos:notation>FAU6745</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cluster</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cluster</skos:prefLabel>
+    <skos:definition xml:lang="fr">Intervention attribuée au niveau du cluster.</skos:definition>
+    <skos:definition xml:lang="en">Intervention allocated at cluster level.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FAU">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">AllocationUnit</dct:title>
+  </rdf:Description>
+</rdf:RDF>

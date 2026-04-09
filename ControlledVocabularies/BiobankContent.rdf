@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC4986">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC4986</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cellules sanguines</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Blood cells</skos:prefLabel>
+    <skos:definition xml:lang="fr">Composants cellulaires du sang (globules rouges, globules blancs, plaquettes) isolés.</skos:definition>
+    <skos:definition xml:lang="en">Cellular components of blood (red blood cells, white blood cells, platelets) isolated.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D001773"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC8260">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC8260</skos:notation>
+    <skos:prefLabel xml:lang="fr">Autres liquides ou sécretions biologiques</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Other fluids and secretions</skos:prefLabel>
+    <skos:definition xml:lang="fr">Autres substances liquides produites par le corps humain : urine, salive, liquide céphalo-rachidien, lait maternel, sueur ou autres fluides biologiques.</skos:definition>
+    <skos:definition xml:lang="en">Other liquid substances produced by human body: urine, saliva, cerebrospinal fluid, breast milk, sweat, or other biological fluids.</skos:definition>
+    <skos:broadMatch rdf:resource="http://id.nlm.nih.gov/mesh/D005441"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC3237">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC3237</skos:notation>
+    <skos:prefLabel xml:lang="fr">Autres  </skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Others</skos:prefLabel>
+    <skos:definition xml:lang="fr">À utiliser lorsque le type d'échantillon biologique est connu, mais introuvable dans la liste.</skos:definition>
+    <skos:definition xml:lang="en">Used when the type of biological sample is known but cannot be found in the list.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC6115">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC6115</skos:notation>
+    <skos:prefLabel xml:lang="fr">Plasma</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Plasma</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fraction liquide du sang obtenue après séparation cellulaire, contenant protéines et facteurs de coagulation.</skos:definition>
+    <skos:definition xml:lang="en">Liquid fraction of blood obtained after cell separation, containing proteins and clotting factors.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D010949"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC4935">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC4935</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tissus</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tissues</skos:prefLabel>
+    <skos:definition xml:lang="fr">Cellules isolées issues de tissus, du sang ou de cultures, conservées pour étude.</skos:definition>
+    <skos:definition xml:lang="en">Fragments of human organs or tissues collected and stored for analysis or research.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D014024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC4177">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC4177</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sérum</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Serum</skos:prefLabel>
+    <skos:definition xml:lang="fr">Partie claire du sang qui est laissée après coagulation sanguine pour extraire les cellules sanguines et les protéines de la coagulation.</skos:definition>
+    <skos:definition xml:lang="en">The clear portion of blood that is left after blood coagulation to remove blood cells and clotting proteins.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D044967"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC6577">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC6577</skos:notation>
+    <skos:prefLabel xml:lang="fr">Acides nucléiques</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nucleic acids</skos:prefLabel>
+    <skos:definition xml:lang="fr">ADN, ARN ou autres extraits nucléiques purifiés pour analyses moléculaires.</skos:definition>
+    <skos:definition xml:lang="en">DNA, RNA, or other purified nucleic acid extracts for molecular analysis.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D009696"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC4951">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC4951</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sang fœtal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fetal blood</skos:prefLabel>
+    <skos:definition xml:lang="fr">Échantillon de sang prélevé chez le fœtus (in utero ou à l’accouchement) pour analyses spécifiques.</skos:definition>
+    <skos:definition xml:lang="en">Blood sample collected from the fetus (in utero or at delivery) for specific analyses.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D005312"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC3227">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC3227</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cellules</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cells</skos:prefLabel>
+    <skos:definition xml:lang="fr">Cellules humaines isolées à partir de tissus ou lignées cellulaires établies, conservées pour étude.</skos:definition>
+    <skos:definition xml:lang="en">Human cells isolated from tissues or established cell lines, stored for study.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D002477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">BiobankContent</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBC#FBC1781">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBC"/>
+    <skos:notation>FBC1781</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sang total</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Whole blood</skos:prefLabel>
+    <skos:definition xml:lang="fr">Échantillon de sang complet, contenant cellules et plasma, non séparés.</skos:definition>
+    <skos:definition xml:lang="en">Complete blood sample containing both cells and plasma, unseparated.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D001769"/>
+  </rdf:Description>
+</rdf:RDF>

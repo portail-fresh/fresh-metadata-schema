@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FMT#FMT3704">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FMT"/>
+    <skos:notation>FMT3704</skos:notation>
+    <skos:prefLabel xml:lang="fr">Avec insu (en aveugle)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Blinded</skos:prefLabel>
+    <skos:definition xml:lang="fr">Au moins une partie est tenue dans l’ignorance de l’intervention attribuée.</skos:definition>
+    <skos:definition xml:lang="en">At least one party is unaware of the assigned intervention.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FMT#FMT5335">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FMT"/>
+    <skos:notation>FMT5335</skos:notation>
+    <skos:prefLabel xml:lang="fr">Ouvert</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Open label</skos:prefLabel>
+    <skos:definition xml:lang="fr">Toutes les parties connaissent l’intervention attribuée.</skos:definition>
+    <skos:definition xml:lang="en">All parties know the assigned intervention.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FMT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">MaskingType</dct:title>
+  </rdf:Description>
+</rdf:RDF>

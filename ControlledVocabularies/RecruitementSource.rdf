@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FRS#FRS3712">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FRS"/>
+    <skos:notation>FRS3712</skos:notation>
+    <skos:prefLabel xml:lang="fr">Base médico-administrative (de patients, Assurance Maladie/Mutuelle)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Medical-administrative database (patients, health insurance/mutual insurance)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FRS#FRS8098">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FRS"/>
+    <skos:notation>FRS8098</skos:notation>
+    <skos:prefLabel xml:lang="fr">Via les professionnels de santé d'exercice libéral</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Through independent healthcare practitioners</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FRS#FRS2933">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FRS"/>
+    <skos:notation>FRS2933</skos:notation>
+    <skos:prefLabel xml:lang="fr">Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">À utiliser lorsque la source du recrutement est connue, mais introuvable dans la liste.</skos:definition>
+    <skos:definition xml:lang="en">Use when the recrutment source is known but cannot be found in the list.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FRS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">RecruitementSource</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FRS#FRS8956">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FRS"/>
+    <skos:notation>FRS8956</skos:notation>
+    <skos:prefLabel xml:lang="fr">Base administrative (d'employés, d'élèves, d'étudiants, etc…)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Administrative database (employees, pupils, students, etc.)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FRS#FRS1358">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FRS"/>
+    <skos:notation>FRS1358</skos:notation>
+    <skos:prefLabel xml:lang="fr">Base de population à finalité statistique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Population database for statistical purposes</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FRS#FRS1139">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FRS"/>
+    <skos:notation>FRS1139</skos:notation>
+    <skos:prefLabel xml:lang="fr">Via des structures (services ou établissements de santé, écoles, entreprises…)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Through organizations (health services or institutions, schools, businesses, etc.)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FRS#FRS3562">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FRS"/>
+    <skos:notation>FRS3562</skos:notation>
+    <skos:prefLabel xml:lang="fr">Registre de maladies, de décès</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Disease and death registry</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

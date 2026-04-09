@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT5042">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT5042</skos:notation>
+    <skos:prefLabel xml:lang="fr">Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">À utiliser lorsque le type d'intervention est connu, mais introuvable dans la liste.</skos:definition>
+    <skos:definition xml:lang="en">Used when the intervention type is known but cannot be found in the list.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT2257">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT2257</skos:notation>
+    <skos:prefLabel xml:lang="fr">Biologique-vaccin</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Biological-Vaccine</skos:prefLabel>
+    <skos:definition xml:lang="fr">Administration d'un produits dérivés de sources biologiques (ex.anticorps, cellules, vaccins) destinée à prévenir, traiter ou diagnostiquer une maladie.</skos:definition>
+    <skos:definition xml:lang="en">Administration of a product derived from biological sources (e.g. antibodies, cells, vaccines) intended to prevent, treat or diagnose a disease.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT1599">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT1599</skos:notation>
+    <skos:prefLabel xml:lang="fr">Radiation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Radiation</skos:prefLabel>
+    <skos:definition xml:lang="fr">Utilisation de rayonnements ionisants ou non ionisants pour diagnostiquer ou traiter une maladie.</skos:definition>
+    <skos:definition xml:lang="en">Use of ionising or non-ionising radiation to diagnose or treat disease.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT6850">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT6850</skos:notation>
+    <skos:prefLabel xml:lang="fr">Procédure-chirurgie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Procedure-Surgery</skos:prefLabel>
+    <skos:definition xml:lang="fr">Réalisation d'une intervention médicale ou chirurgicale à des fins thérapeutiques ou diagnostiques.</skos:definition>
+    <skos:definition xml:lang="en">Performing a medical or surgical procedure for therapeutic or diagnostic purposes.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT2785">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT2785</skos:notation>
+    <skos:prefLabel xml:lang="fr">Dispositif médical</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Device</skos:prefLabel>
+    <skos:definition xml:lang="fr">Utilisation d'un dispositif médical pour diagnostiquer, traiter ou prévenir une affection.</skos:definition>
+    <skos:definition xml:lang="en">Use of a medical device to diagnose, treat, or prevent a condition.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT6141">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT6141</skos:notation>
+    <skos:prefLabel xml:lang="fr">Santé publique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Public Health</skos:prefLabel>
+    <skos:definition xml:lang="fr">Mesures mises en place pour la protection contre un risque sanitaire ou pour la promotion de la santé auprès de la population.</skos:definition>
+    <skos:definition xml:lang="en">Measures implemented to protect against health risks or to promote health among the population.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT3699">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT3699</skos:notation>
+    <skos:prefLabel xml:lang="fr">Génétique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Genetic</skos:prefLabel>
+    <skos:definition xml:lang="fr">Utilisation de thérapies géniques, de thérapies par cellules souches ou d'approches utilisant l'ADN recombinant.</skos:definition>
+    <skos:definition xml:lang="en">Use of gene therapies, stem cell interventions, or recombinant DNA approaches.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT5206">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT5206</skos:notation>
+    <skos:prefLabel xml:lang="fr">Médicament</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Drug</skos:prefLabel>
+    <skos:definition xml:lang="fr">Administration d'une substance chimique destinée à prévenir, traiter ou diagnostiquer une maladie.</skos:definition>
+    <skos:definition xml:lang="en">Administration of a chemical substance or formulation intended to prevent, treat or diagnose a disease.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT9216">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT9216</skos:notation>
+    <skos:prefLabel xml:lang="fr">Combinaison</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Combination Product</skos:prefLabel>
+    <skos:definition xml:lang="fr">Intervention combinant deux ou plusieurs types (ex. combinaison d'un médicament et d'un dispositif, d'un produit biologique et d'un dispositif, etc).</skos:definition>
+    <skos:definition xml:lang="en">Intervention combining two or more types (e.g., combination of a drug and a device, a biological product and a device, etc.).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT5205">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT5205</skos:notation>
+    <skos:prefLabel xml:lang="fr">Comportementale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral</skos:prefLabel>
+    <skos:definition xml:lang="fr">Intervention visant à modifier le comportement ou le mode de vie, comme psychotérapie, l’éducation ou le coaching.</skos:definition>
+    <skos:definition xml:lang="en">Intervention aimed at changing behaviour, such as psychotherapy, education or coaching.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT5827">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT5827</skos:notation>
+    <skos:prefLabel xml:lang="fr">Complément alimentaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dietary Supplement</skos:prefLabel>
+    <skos:definition xml:lang="fr">Administration de vitamines, minéraux ou autres produits nutritionnels pour modifier l’état de santé.</skos:definition>
+    <skos:definition xml:lang="en">Administering vitamins, minerals, or other nutritional products to affect health outcomes.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">InterventionType</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIT#FIT4535">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIT"/>
+    <skos:notation>FIT4535</skos:notation>
+    <skos:prefLabel xml:lang="fr">Test diagnostic</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Diagnostic Test</skos:prefLabel>
+    <skos:definition xml:lang="fr">Réalisation de tests, d'examens d'imagerie ou d'analyses en laboratoire afin de détecter, diagnostiquer ou surveiller un état pathologique.</skos:definition>
+    <skos:definition xml:lang="en">Performing tests, imaging, or laboratory assays to detect, diagnose, or monitor a condition.</skos:definition>
+  </rdf:Description>
+</rdf:RDF>

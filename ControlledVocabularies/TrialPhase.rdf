@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FTR#FTR3851">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FTR"/>
+    <skos:notation>FTR3851</skos:notation>
+    <skos:prefLabel xml:lang="fr">Phase 4</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Phase 4</skos:prefLabel>
+    <skos:definition xml:lang="fr">Suivi post-commercialisation pour détecter des effets indésirables rares et évaluer l’usage réel du traitement.</skos:definition>
+    <skos:definition xml:lang="en">Post-marketing surveillance to detect rare adverse effects and assess real-world use of the treatment.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FTR#FTR6916">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FTR"/>
+    <skos:notation>FTR6916</skos:notation>
+    <skos:prefLabel xml:lang="fr">Phase 2</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Phase 2</skos:prefLabel>
+    <skos:definition xml:lang="fr">Evaluation de l’efficacité et du profil de sécurité d’un traitement chez un groupe limité de patients.</skos:definition>
+    <skos:definition xml:lang="en">Evaluation of efficacy and safety profile of a treatment in a limited group of patients.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FTR#FTR5268">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FTR"/>
+    <skos:notation>FTR5268</skos:notation>
+    <skos:prefLabel xml:lang="fr">Phase 3</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Phase 3</skos:prefLabel>
+    <skos:definition xml:lang="fr">Confirmation de l’efficacité et surveillance de la sécurité sur un grand nombre de patients, souvent pour obtenir l’autorisation de mise sur le marché.</skos:definition>
+    <skos:definition xml:lang="en">Confirmation of efficacy and monitoring of safety in a large patient population, often to obtain marketing authorization.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FTR#FTR6479">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FTR"/>
+    <skos:notation>FTR6479</skos:notation>
+    <skos:prefLabel xml:lang="fr">Phase 1</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Phase 1</skos:prefLabel>
+    <skos:definition xml:lang="fr">Evaluation de la sécurité et de la tolérance d’un nouveau traitement chez un petit nombre de volontaires sains ou de patients</skos:definition>
+    <skos:definition xml:lang="en">Assessment of safety and tolerability of a new treatment in a small number of healthy volunteers or patients.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FTR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">TrialPhase</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FTR#FTR8897">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FTR"/>
+    <skos:notation>FTR8897</skos:notation>
+    <skos:definition xml:lang="fr">Non applicable</skos:definition>
+    <skos:definition xml:lang="en">Not applicable</skos:definition>
+  </rdf:Description>
+</rdf:RDF>

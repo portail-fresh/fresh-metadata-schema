@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD8793">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD8793</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants environnementaux : Qualité de l'eau</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Environmental determinants: Water quality</skos:prefLabel>
+    <skos:definition xml:lang="fr">Caractéristiques physiques, chimiques et microbiologiques de l’eau, qu’elle soit destinée à la consommation humaine, à un usage domestique, ou présente dans l’environnement.</skos:definition>
+    <skos:definition xml:lang="en">Physical, chemical and microbiological characteristics of water, whether intended for human consumption, domestic use, or present in the environment.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1261"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD3763">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD3763</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants liés au système de santé : Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Healthcare system determinants: Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">Tout autre facteur lié au système de santé ne figurant pas dans les catégories précédentes.</skos:definition>
+    <skos:definition xml:lang="en">Any other factor related to the healthcare system not included in the previous categories.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD2204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD3308">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD3308</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques : Age</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants: Age</skos:prefLabel>
+    <skos:definition xml:lang="fr">Caractéristique démographique indiquant le nombre d’années vécues par une personne, influençant ses rôles et interactions sociales, ses responsabilités et ses ressources économiques.</skos:definition>
+    <skos:definition xml:lang="en">A demographic characteristic indicating the number of years a person has lived, influencing their social roles and interactions, responsibilities and economic resources.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD8197">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD8197</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques : Revenu</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants: Income</skos:prefLabel>
+    <skos:definition xml:lang="fr">Niveau de revenu.</skos:definition>
+    <skos:definition xml:lang="en">Income level.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD9877">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD9877</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants liés au système de santé : Consommation des soins</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Healthcare system determinants: Use of care</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fréquence et type d’utilisation des services de santé.</skos:definition>
+    <skos:definition xml:lang="en">Frequency and type of healthcare service use.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD2204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD6471">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD6471</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques : Niveau d'études</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants: Education level</skos:prefLabel>
+    <skos:definition xml:lang="fr">Degré de formation atteint par un individu, généralement mesuré par le plus haut diplôme obtenu.</skos:definition>
+    <skos:definition xml:lang="en">Level of education attained by an individual, generally measured by the highest qualification obtained.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD7020">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD7020</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques : Situation familiale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants: Family situation</skos:prefLabel>
+    <skos:definition xml:lang="fr">Configuration du foyer ou du ménage, liens familiaux.</skos:definition>
+    <skos:definition xml:lang="en">Household or family configuration, family ties.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD5552">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD5552</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants liés au système de santé : Qualité des soins</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Healthcare system determinants: Quality of care</skos:prefLabel>
+    <skos:definition xml:lang="fr">Niveau de performance et de sécurité des services de santé.</skos:definition>
+    <skos:definition xml:lang="en">Performance and safety level of healthcare services.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD2204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD5526">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD5526</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants biologiques : Sexe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Biological determinants: Sex</skos:prefLabel>
+    <skos:definition xml:lang="fr">Caractéristiques biologiques et physiologiques qui différencient les hommes des femmes (définition de l'OMS - https://www.who.int/fr/news-room/fact-sheets/detail/women-s-health)</skos:definition>
+    <skos:definition xml:lang="en">Biological and physiological characteristics that differentiate men from women (WHO definition - https://www.who.int/fr/news-room/fact-sheets/detail/women-s-health)</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD7064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD7008">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD7008</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants biologiques : Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Biological determinants: Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">Autre caractéristique biologique ne figurant pas dans les catégories précédentes.</skos:definition>
+    <skos:definition xml:lang="en">Any other biological characteristic not included in the previous categories.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD7064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD2169">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD2169</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants environnementaux : Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Environmental determinants: Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">Tout autre facteur environnemental ne figurant pas dans les catégories précédentes.</skos:definition>
+    <skos:definition xml:lang="en">Any other environmental factor not included in the previous categories.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1261"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD3661">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD3661</skos:notation>
+    <skos:prefLabel xml:lang="fr">Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">À utiliser lorsque le déterminant est connu, mais introuvable dans la liste.</skos:definition>
+    <skos:definition xml:lang="en">Use when the determinant is known but cannot be found in the list.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD8610">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD8610</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux : Pratiques sexuelles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants: Sexual practice</skos:prefLabel>
+    <skos:definition xml:lang="fr">Comportements liés à la sexualité.</skos:definition>
+    <skos:definition xml:lang="en">Behaviours related to sexuality.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD4659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD5890">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD5890</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques : Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants: Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">Tout autre facteur socio-économique ne figurant pas dans les catégories précédentes.</skos:definition>
+    <skos:definition xml:lang="en">Other socioeconomic factors not included in the previous categories.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD4659">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD4659</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants</skos:prefLabel>
+    <skos:definition xml:lang="fr">Facteurs liés aux comportements individuels des personnes participant à l'étude.</skos:definition>
+    <skos:definition xml:lang="en">Factor related to individual behavior of the study participants.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD2204">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD2204</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants liés au système de santé</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Healthcare system determinants</skos:prefLabel>
+    <skos:definition xml:lang="fr">Facteurs relatifs à l’organisation, à l’accessibilité, à la qualité et à l’utilisation des services de santé par les personnes participant à l’étude. </skos:definition>
+    <skos:definition xml:lang="en">Factors related to the organisation, accessibility, quality and use of health services by study participants. </skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD1261">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD1261</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants environnementaux</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Environmental determinants</skos:prefLabel>
+    <skos:definition xml:lang="fr">Facteurs liés à l'environnement physique des personnes participant à l'étude.</skos:definition>
+    <skos:definition xml:lang="en">Factors related to the physical environment of the study participants.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD5923">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD5923</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants liés au système de santé : Accès aux soins</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Healthcare system determinants: Access to care</skos:prefLabel>
+    <skos:definition xml:lang="fr">Disponibilité, proximité et accessibilité financière des soins.</skos:definition>
+    <skos:definition xml:lang="en">Availability, proximity, and affordability of healthcare.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD2204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD7735">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD7735</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux : Addiction</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants: Addiction</skos:prefLabel>
+    <skos:definition xml:lang="fr">Comportement incontrôlable lié à un besoin excessif de consommer une substance ou de répéter un acte, entraînant une dépendance physique et émotionnelle.</skos:definition>
+    <skos:definition xml:lang="en">Uncontrollable behaviour linked to an excessive need to consume a substance or repeat an act, leading to physical and emotional dependence.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD4659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD8373">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD8373</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux : Comportements à risque</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants: Risk behavior</skos:prefLabel>
+    <skos:definition xml:lang="fr">Actions ou habitudes susceptibles de nuire à la santé (ex. : conduite à risque).</skos:definition>
+    <skos:definition xml:lang="en">Actions or habits that may be harmful to health (e.g., risky driving).</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD4659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD9955">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD9955</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux : Alimentation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants: Eating habits</skos:prefLabel>
+    <skos:definition xml:lang="fr">Comportements alimentaires et régime alimentaire.</skos:definition>
+    <skos:definition xml:lang="en">Feeding behavior and diet.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD4659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD1859">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD1859</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux : Activité physique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants: Physical activity</skos:prefLabel>
+    <skos:definition xml:lang="fr">Niveau et régularité d'activité physique pratiquée.</skos:definition>
+    <skos:definition xml:lang="en">Level and regularity of physical activity.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD4659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD7164">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD7164</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques : Emploi</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants: Employment</skos:prefLabel>
+    <skos:definition xml:lang="fr">Situation d’activité professionnelle, incluant statut et le type d'emploi, le secteur d'activité et conditions de travail.</skos:definition>
+    <skos:definition xml:lang="en">Professional activity situation, including employment status and type of job, sector of activity, and working conditions.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD7064">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD7064</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants biologiques</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Biological determinants</skos:prefLabel>
+    <skos:definition xml:lang="fr">Facteurs liés aux caractéristiques biologiques des personnes participant à l'étude.</skos:definition>
+    <skos:definition xml:lang="en">Factor related to biological characteristics of the study participants.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD4305">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD4305</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux : Autre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants: Other</skos:prefLabel>
+    <skos:definition xml:lang="fr">Tout autre comportement influençant la santé ne figurant pas dans les catégories précédentes.</skos:definition>
+    <skos:definition xml:lang="en">Any other health-related behavior not included in the previous categories.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD4659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD1224">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD1224</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants biologiques : Prédisposition génétique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Biological determinants: Genetic predisposition</skos:prefLabel>
+    <skos:definition xml:lang="fr">Caractéristiques héréditaires d’une personne qui augmentent sa vulnérabilité à certaines maladies ou affections.</skos:definition>
+    <skos:definition xml:lang="en">Hereditary characteristics of a person that increase their vulnerability to certain diseases or conditions.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD7064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD9559">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD9559</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques : Logement</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants: Housing</skos:prefLabel>
+    <skos:definition xml:lang="fr">Conditions matérielles de logement.</skos:definition>
+    <skos:definition xml:lang="en">Material conditions of housing.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD4756">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD4756</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants environnementaux : Qualité de l'air</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Environmental determinants: Air quality</skos:prefLabel>
+    <skos:definition xml:lang="fr">Ensemble des caractéristiques de l’air ambiant (extérieur ou intérieur), mesurées en fonction de la présence de polluants.</skos:definition>
+    <skos:definition xml:lang="en">All characteristics of ambient air (outdoor or indoor), measured in terms of the presence of pollutants.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1261"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD1085">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD1085</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux : Hygiène</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants: Hygiene</skos:prefLabel>
+    <skos:definition xml:lang="fr">Ensemble des pratiques visant à préserver la santé et prévenir les maladies, notamment par la propreté.</skos:definition>
+    <skos:definition xml:lang="en">Practices that maintain health and prevent disease, especially through cleanliness.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD4659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD8320">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD8320</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants environnementaux : Climat</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Environmental determinants: Climate</skos:prefLabel>
+    <skos:definition xml:lang="fr">Conditions météorologiques moyennes observées sur une période prolongée dans une région donnée. </skos:definition>
+    <skos:definition xml:lang="en">Average weather conditions observed over an extensiv period in a given region. </skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1261"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD4541">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD4541</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants comportementaux : Littératie en santé</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Behavioral determinants: Health literacy</skos:prefLabel>
+    <skos:definition xml:lang="fr">Capacité à comprendre et utiliser les informations liées à la santé.</skos:definition>
+    <skos:definition xml:lang="en">Ability to understand and use health-related information.</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD4659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD7708">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD7708</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques : Genre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants: Gender</skos:prefLabel>
+    <skos:definition xml:lang="fr">Rôles déterminés socialement par les comportements, les activités et les attributs qu’une société considère comme appropriés pour les hommes et les femmes (https://www.who.int/fr/news-room/fact-sheets/detail/gender)</skos:definition>
+    <skos:definition xml:lang="en">Roles determined socially by the behaviours, activities and attributes that a society considers appropriate for men and women (https://www.who.int/fr/news-room/fact-sheets/detail/gender)</skos:definition>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD1624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD1624">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD1624</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants socio-démographiques et économiques</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Socio-demographic and economic determinants</skos:prefLabel>
+    <skos:definition xml:lang="fr">Facteurs liés à l'environnement social et économique des personnes participant à l'étude.</skos:definition>
+    <skos:definition xml:lang="en">Factors related to the social and economic environment of the study participants.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD#FHD6631">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FHD"/>
+    <skos:notation>FHD6631</skos:notation>
+    <skos:prefLabel xml:lang="fr">Déterminants biologiques : Viellissement</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Biological determinants: Aging</skos:prefLabel>
+    <skos:broader rdf:resource="https://portail-fresh.fr/vocab/FHD#FHD7064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FHD">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">HealthDeterminant</dct:title>
+  </rdf:Description>
+</rdf:RDF>
