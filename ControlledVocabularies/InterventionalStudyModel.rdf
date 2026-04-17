@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:pav="http://purl.org/pav/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <skos:ConceptScheme rdf:about="https://portail-fresh.fr/vocab/FIS">
+      <dct:creator rdf:resource="https://portail-fresh.fr/"/>
+      <dct:description xml:lang="en">Terms used to describe the field 'InterventionalStudyModel' in the FReSH metadata schema.</dct:description>
+      <dct:description xml:lang="fr">Concepts utilisés pour décrire le champ 'InterventionalStudyModel' du schéma de métadonnées FReSH.</dct:description>
+      <dct:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+      <dct:title xml:lang="en">Interventional study model</dct:title>
+      <dct:title xml:lang="fr">Modèle d'étude interventionnelle</dct:title>
+      <pav:createdOn>2026-01-05</pav:createdOn>
+      <pav:lastUpdatedOn>2020-04-16</pav:lastUpdatedOn>
+    </skos:ConceptScheme>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIS#FIS3503">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIS"/>
+    <skos:notation>FIS3503</skos:notation>
+    <skos:prefLabel xml:lang="fr">Groupes parallèles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Parallel</skos:prefLabel>
+    <skos:definition xml:lang="fr">Deux ou plus de groupes distincts de participants reçoivent différentes interventions, généralement attribuées de manière randomisée, et restent dans le même groupe pendant toute la durée de l’étude.</skos:definition>
+    <skos:definition xml:lang="en">Two or more distinct groups of participants receive different interventions, usually assigned randomly, and remain in the same group for the study duration.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIS#FIS8294">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIS"/>
+    <skos:notation>FIS8294</skos:notation>
+    <skos:prefLabel xml:lang="fr">Plan factoriel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Factorial</skos:prefLabel>
+    <skos:definition xml:lang="fr">Deux interventions ou plus, chacune seule et en combinaison, sont évaluées en parallèle par rapport à un groupe témoin.</skos:definition>
+    <skos:definition xml:lang="en">Two or more interventions, each alone and in combination, are evaluated in parallel against a control group.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIS#FIS9793">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIS"/>
+    <skos:notation>FIS9793</skos:notation>
+    <skos:prefLabel xml:lang="fr">Schéma croisé</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Crossover</skos:prefLabel>
+    <skos:definition xml:lang="fr">Les participants reçoivent l'une des deux (ou plusieurs) interventions alternatives pendant la phase initiale de l'étude et reçoivent l'autre intervention pendant la deuxième phase de l'étude, dans un ordre prédéterminé.</skos:definition>
+    <skos:definition xml:lang="en">Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study, in a pre-determined sequence.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIS#FIS3146">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIS"/>
+    <skos:notation>FIS3146</skos:notation>
+    <skos:prefLabel xml:lang="fr">Simple bras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Single Group</skos:prefLabel>
+    <skos:definition xml:lang="fr">Etude à bras unique : tous les participants reçoivent la même intervention.</skos:definition>
+    <skos:definition xml:lang="en">Study with a single arm: all participants receive the same intervention.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIS#FIS1512">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FIS"/>
+    <skos:notation>FIS1512</skos:notation>
+    <skos:prefLabel xml:lang="fr">Séquentiel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sequential</skos:prefLabel>
+    <skos:definition xml:lang="fr">Les groupes de participants sont répartis pour recevoir des interventions en fonction des étapes préalables atteintes dans l'étude, comme dans certaines études à doses croissantes et à conception adaptative.</skos:definition>
+    <skos:definition xml:lang="en">Groups of participants are assigned to receive interventions based on prior milestones being reached in the study, such as in some dose escalation and adaptive design studies.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FIS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">InterventionalStudyModel</dct:title>
+  </rdf:Description>
+</rdf:RDF>

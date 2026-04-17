@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:pav="http://purl.org/pav/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <skos:ConceptScheme rdf:about="https://portail-fresh.fr/vocab/FBM">
+      <dct:creator rdf:resource="https://portail-fresh.fr/"/>
+      <dct:description xml:lang="en">Terms used to describe the field 'BlindedMaskingDetails' in the FReSH metadata schema.</dct:description>
+      <dct:description xml:lang="fr">Concepts utilisés pour décrire le champ 'BlindedMaskingDetails' du schéma de métadonnées FReSH.</dct:description>
+      <dct:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+      <dct:title xml:lang="en">Blinded masking details</dct:title>
+      <dct:title xml:lang="fr">Groupe avec insu (en aveugle)</dct:title>
+      <pav:createdOn>2026-01-05</pav:createdOn>
+      <pav:lastUpdatedOn>2020-04-16</pav:lastUpdatedOn>
+    </skos:ConceptScheme>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBM#FBM7367">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBM"/>
+    <skos:notation>FBM7367</skos:notation>
+    <skos:prefLabel xml:lang="fr">Participant</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Participant</skos:prefLabel>
+    <skos:definition xml:lang="fr">Personne incluse à l’étude et recevant ou pouvant recevoir l’intervention.</skos:definition>
+    <skos:definition xml:lang="en">An individual enrolled in the study who receives or may receive the intervention.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBM#FBM7804">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBM"/>
+    <skos:notation>FBM7804</skos:notation>
+    <skos:prefLabel xml:lang="fr">Personnel soignant</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Care provider</skos:prefLabel>
+    <skos:definition xml:lang="fr">Professionnel de santé délivrant l’intervention ou les soins standards aux participants.</skos:definition>
+    <skos:definition xml:lang="en">A health professional who delivers the intervention or standard care to participants.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBM#FBM4651">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBM"/>
+    <skos:notation>FBM4651</skos:notation>
+    <skos:prefLabel xml:lang="fr">Evaluateur des résultats</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Outcomes Assessor</skos:prefLabel>
+    <skos:definition xml:lang="fr">Personne chargée d’évaluer le(s) résultat(s) de l’étude.</skos:definition>
+    <skos:definition xml:lang="en">The individual who evaluates the outcome(s) of interest.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBM#FBM7912">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FBM"/>
+    <skos:notation>FBM7912</skos:notation>
+    <skos:prefLabel xml:lang="fr">Membre de l'équipe de recherche</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Research Team Member</skos:prefLabel>
+    <skos:definition xml:lang="fr">Personne impliquée dans la conduite de l’étude (investigateurs, coordinateurs, personnel d’étude, etc.).</skos:definition>
+    <skos:definition xml:lang="en">A person involved in conducting the study, such as investigators, coordinators, or study staff.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FBM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">BlindedMaskingDetails</dct:title>
+  </rdf:Description>
+</rdf:RDF>

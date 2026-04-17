@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:pav="http://purl.org/pav/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <skos:ConceptScheme rdf:about="https://portail-fresh.fr/vocab/FGC">
+      <dct:creator rdf:resource="https://portail-fresh.fr/"/>
+      <dct:description xml:lang="en">Terms used to describe the field 'Nation' in the FReSH metadata schema.</dct:description>
+      <dct:description xml:lang="fr">Concepts utilisés pour décrire le champ 'Nation' du schéma de métadonnées FReSH.</dct:description>
+      <dct:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+      <dct:title xml:lang="en">Geographical coverage</dct:title>
+      <dct:title xml:lang="fr">Champ géographique</dct:title>
+      <pav:createdOn>2026-01-05</pav:createdOn>
+      <pav:lastUpdatedOn>2020-04-16</pav:lastUpdatedOn>
+    </skos:ConceptScheme>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4624">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4624</skos:notation>
+    <skos:prefLabel xml:lang="fr">Géorgie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Georgia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2806">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2806</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bénin</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Benin</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6714">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6714</skos:notation>
+    <skos:prefLabel xml:lang="fr">Djibouti</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Djibouti</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2438">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2438</skos:notation>
+    <skos:prefLabel xml:lang="fr">Salomon, îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Solomon islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2392">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2392</skos:notation>
+    <skos:prefLabel xml:lang="fr">Togo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Togo</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3010">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3010</skos:notation>
+    <skos:prefLabel xml:lang="fr">Nigéria</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nigeria</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8918">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8918</skos:notation>
+    <skos:prefLabel xml:lang="fr">Ghana</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ghana</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6023">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6023</skos:notation>
+    <skos:prefLabel xml:lang="fr">Jersey</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Jersey</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:JE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1246">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1246</skos:notation>
+    <skos:prefLabel xml:lang="fr">Åland, îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Åland islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6580">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6580</skos:notation>
+    <skos:prefLabel xml:lang="fr">Palaos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Palau</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4254">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4254</skos:notation>
+    <skos:prefLabel xml:lang="fr">Gambie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Gambia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5620">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5620</skos:notation>
+    <skos:prefLabel xml:lang="fr">Equateur</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ecuador</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:EC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4118">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4118</skos:notation>
+    <skos:prefLabel xml:lang="fr">Chili</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chile</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4609">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4609</skos:notation>
+    <skos:prefLabel xml:lang="fr">Namibie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Namibia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2787">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2787</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guinée-bissau</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guinea-bissau</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4007">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4007</skos:notation>
+    <skos:prefLabel xml:lang="fr">Saint-marin</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">San marino</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1519">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1519</skos:notation>
+    <skos:prefLabel xml:lang="fr">Liechtenstein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Liechtenstein</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8547">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8547</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tadjikistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tajikistan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5853">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5853</skos:notation>
+    <skos:prefLabel xml:lang="fr">Centrafricaine, république</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Central african republic</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3487">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3487</skos:notation>
+    <skos:prefLabel xml:lang="fr">Italie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8865">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8865</skos:notation>
+    <skos:prefLabel xml:lang="fr">Azerbaïdjan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Azerbaijan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5443">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5443</skos:notation>
+    <skos:prefLabel xml:lang="fr">Chine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">China</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7007">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7007</skos:notation>
+    <skos:prefLabel xml:lang="fr">Botswana</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Botswana</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5129">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5129</skos:notation>
+    <skos:prefLabel xml:lang="fr">Chypre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cyprus</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2268">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2268</skos:notation>
+    <skos:prefLabel xml:lang="fr">Slovénie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Slovenia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6437">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6437</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sahara occidental</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Western sahara</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:EH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7071">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7071</skos:notation>
+    <skos:prefLabel xml:lang="fr">Afrique du sud</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">South africa</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ZA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9810">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9810</skos:notation>
+    <skos:prefLabel xml:lang="fr">Zimbabwe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Zimbabwe</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ZW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7577">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7577</skos:notation>
+    <skos:prefLabel xml:lang="fr">Iles vierges britanniques</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Virgin islands, british</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:VG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3162">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3162</skos:notation>
+    <skos:prefLabel xml:lang="fr">Lao, république démocratique populaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Lao people's democratic republic</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6773">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6773</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guernesey</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guernsey</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5801">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5801</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guatemala</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guatemala</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4057">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4057</skos:notation>
+    <skos:prefLabel xml:lang="fr">Roumanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Romania</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:RO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8146">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8146</skos:notation>
+    <skos:prefLabel xml:lang="fr">Norvège</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Norway</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2674">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2674</skos:notation>
+    <skos:prefLabel xml:lang="fr">Monaco</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Monaco</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3561">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3561</skos:notation>
+    <skos:prefLabel xml:lang="fr">Uruguay</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Uruguay</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:UY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2097">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2097</skos:notation>
+    <skos:prefLabel xml:lang="fr">Dominique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dominica</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4977">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4977</skos:notation>
+    <skos:prefLabel xml:lang="fr">Porto rico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Puerto rico</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8347">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8347</skos:notation>
+    <skos:prefLabel xml:lang="fr">Nicaragua</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nicaragua</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5878">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5878</skos:notation>
+    <skos:prefLabel xml:lang="fr">Albanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Albania</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3733">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3733</skos:notation>
+    <skos:prefLabel xml:lang="fr">Hong kong</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hong kong</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:HK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6639">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6639</skos:notation>
+    <skos:prefLabel xml:lang="fr">Curaçao</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Curaçao</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4844">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4844</skos:notation>
+    <skos:prefLabel xml:lang="fr">Géorgie du sud-et-les îles sandwich du sud</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">South georgia and the south sandwich islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6331">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6331</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bermudes</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bermuda</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7924">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7924</skos:notation>
+    <skos:prefLabel xml:lang="fr">Congo, la république démocratique du</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Congo, the democratic republic of the</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1487">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1487</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bangladesh</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bangladesh</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5882">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5882</skos:notation>
+    <skos:prefLabel xml:lang="fr">Pérou</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Peru</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2467">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2467</skos:notation>
+    <skos:prefLabel xml:lang="fr">Océan indien, territoire britannique de l'</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">British indian ocean territory</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3537">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3537</skos:notation>
+    <skos:prefLabel xml:lang="fr">Etats-unis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">United states</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:US"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4360">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4360</skos:notation>
+    <skos:prefLabel xml:lang="fr">Martinique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Martinique</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6027">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6027</skos:notation>
+    <skos:prefLabel xml:lang="fr">Burundi</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Burundi</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1018">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1018</skos:notation>
+    <skos:prefLabel xml:lang="fr">Niué</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Niue</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7618">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7618</skos:notation>
+    <skos:prefLabel xml:lang="fr">Gibraltar</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Gibraltar</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1631">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1631</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cook, ïles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cook islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1996">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1996</skos:notation>
+    <skos:prefLabel xml:lang="fr">Saint-kitts-et-nevis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saint kitts and nevis</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7050">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7050</skos:notation>
+    <skos:prefLabel xml:lang="fr">Russie, fédération de</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Russian federation</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:RU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1936">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1936</skos:notation>
+    <skos:prefLabel xml:lang="fr">Libéria</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Liberia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6019">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6019</skos:notation>
+    <skos:prefLabel xml:lang="fr">Dominicaine, république</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dominican republic</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4800">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4800</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bonaire, saint-eustache et saba</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bonaire, sint eustatius and saba</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6849">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6849</skos:notation>
+    <skos:prefLabel xml:lang="fr">Serbie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Serbia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:RS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1576">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1576</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mozambique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mozambique</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6205">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6205</skos:notation>
+    <skos:prefLabel xml:lang="fr">Svalbard et île jan mayen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Svalbard and jan mayen</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3691">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3691</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mexique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mexico</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9930">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9930</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sénégal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Senegal</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1145">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1145</skos:notation>
+    <skos:prefLabel xml:lang="fr">Taïwan, province de chine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Taiwan, province of china</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8925">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8925</skos:notation>
+    <skos:prefLabel xml:lang="fr">Oman</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Oman</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:OM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8083">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8083</skos:notation>
+    <skos:prefLabel xml:lang="fr">Haïti</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Haiti</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:HT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2900">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2900</skos:notation>
+    <skos:prefLabel xml:lang="fr">Niger</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Niger</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5600">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5600</skos:notation>
+    <skos:prefLabel xml:lang="fr">Myanmar</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Myanmar</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6865">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6865</skos:notation>
+    <skos:prefLabel xml:lang="fr">Panama</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Panama</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7829">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7829</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sainte-lucie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saint lucia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6546">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6546</skos:notation>
+    <skos:prefLabel xml:lang="fr">Antigua-et-barbuda</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Antigua and barbuda</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5405">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5405</skos:notation>
+    <skos:prefLabel xml:lang="fr">Qatar</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Qatar</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:QA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6579">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6579</skos:notation>
+    <skos:prefLabel xml:lang="fr">Samoa</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Samoa</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:WS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2166">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2166</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sri lanka</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sri lanka</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4189">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4189</skos:notation>
+    <skos:prefLabel xml:lang="fr">Grenade</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Grenada</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2849">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2849</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guyana</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guyana</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1738">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1738</skos:notation>
+    <skos:prefLabel xml:lang="fr">Nauru</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nauru</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5695">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5695</skos:notation>
+    <skos:prefLabel xml:lang="fr">Malte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Malta</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3466">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3466</skos:notation>
+    <skos:prefLabel xml:lang="fr">Lituanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Lithuania</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8473">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8473</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bulgarie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bulgaria</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7891">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7891</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cuba</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cuba</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3793">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3793</skos:notation>
+    <skos:prefLabel xml:lang="fr">Eswatini</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Eswatini</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2878">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2878</skos:notation>
+    <skos:prefLabel xml:lang="fr">Fidji</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fiji</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7310">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7310</skos:notation>
+    <skos:prefLabel xml:lang="fr">Canada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Canada</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5230">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5230</skos:notation>
+    <skos:prefLabel xml:lang="fr">Iraq</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Iraq</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2157">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2157</skos:notation>
+    <skos:prefLabel xml:lang="fr">Soudan du sud</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">South sudan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7619">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7619</skos:notation>
+    <skos:prefLabel xml:lang="fr">Lettonie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Latvia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7740">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7740</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sierra leone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sierra leone</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3605">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3605</skos:notation>
+    <skos:prefLabel xml:lang="fr">Corée, république populaire démocratique de</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Korea, democratic people's republic of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8897">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8897</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guadeloupe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guadeloupe</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3552">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3552</skos:notation>
+    <skos:prefLabel xml:lang="fr">Syrienne, république arabe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Syrian arab republic</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3896">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3896</skos:notation>
+    <skos:prefLabel xml:lang="fr">Autriche</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Austria</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9150">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9150</skos:notation>
+    <skos:prefLabel xml:lang="fr">Christmas, île</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Christmas island</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9155">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9155</skos:notation>
+    <skos:prefLabel xml:lang="fr">Maroc</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Morocco</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5731">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5731</skos:notation>
+    <skos:prefLabel xml:lang="fr">Polynésie française</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">French polynesia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8098">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8098</skos:notation>
+    <skos:prefLabel xml:lang="fr">Saint-pierre-et-miquelon</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saint pierre and miquelon</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1472">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1472</skos:notation>
+    <skos:prefLabel xml:lang="fr">France</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">France</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4470">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4470</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mongolie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mongolia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4001">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4001</skos:notation>
+    <skos:prefLabel xml:lang="fr">Allemagne</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Germany</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4116">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4116</skos:notation>
+    <skos:prefLabel xml:lang="fr">Gabon</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Gabon</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9433">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9433</skos:notation>
+    <skos:prefLabel xml:lang="fr">Saint-martin (partie néerlandaise)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sint maarten (dutch part)</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9909">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9909</skos:notation>
+    <skos:prefLabel xml:lang="fr">Papouasie-nouvelle-guinée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Papua new guinea</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5495">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5495</skos:notation>
+    <skos:prefLabel xml:lang="fr">Trinité-et-tobago</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Trinidad and tobago</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7065">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7065</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mauritanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mauritania</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8236">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8236</skos:notation>
+    <skos:prefLabel xml:lang="fr">Jordanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Jordan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:JO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9588">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9588</skos:notation>
+    <skos:prefLabel xml:lang="fr">Kenya</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kenya</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8811">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8811</skos:notation>
+    <skos:prefLabel xml:lang="fr">Liban</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Lebanon</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3991">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3991</skos:notation>
+    <skos:prefLabel xml:lang="fr">Andorre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Andorra</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2736">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2736</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tuvalu</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tuvalu</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5844">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5844</skos:notation>
+    <skos:prefLabel xml:lang="fr">Royaume-uni</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">United kingdom</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8244">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8244</skos:notation>
+    <skos:prefLabel xml:lang="fr">El salvador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">El salvador</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2212">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2212</skos:notation>
+    <skos:prefLabel xml:lang="fr">Paraguay</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Paraguay</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9699">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9699</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tchèque, république</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Czech republic</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8062">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8062</skos:notation>
+    <skos:prefLabel xml:lang="fr">Comores</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Comoros</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5604">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5604</skos:notation>
+    <skos:prefLabel xml:lang="fr">Israël</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Israel</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3926">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3926</skos:notation>
+    <skos:prefLabel xml:lang="fr">Ethiopie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ethiopia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9161">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9161</skos:notation>
+    <skos:prefLabel xml:lang="fr">Angola</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Angola</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5196">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5196</skos:notation>
+    <skos:prefLabel xml:lang="fr">Seychelles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Seychelles</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9041">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9041</skos:notation>
+    <skos:prefLabel xml:lang="fr">Luxembourg</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Luxembourg</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2251">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2251</skos:notation>
+    <skos:prefLabel xml:lang="fr">Grèce</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Greece</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2252">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2252</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sao tomé-et-principe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sao tome and principe</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6747">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6747</skos:notation>
+    <skos:prefLabel xml:lang="fr">Somalie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Somalia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6363">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6363</skos:notation>
+    <skos:prefLabel xml:lang="fr">Vanuatu</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Vanuatu</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:VU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7320">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7320</skos:notation>
+    <skos:prefLabel xml:lang="fr">Hongrie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hungary</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:HU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8659">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8659</skos:notation>
+    <skos:prefLabel xml:lang="fr">Iles vierges des états-unis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Virgin islands, u.s.</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:VI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8177">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8177</skos:notation>
+    <skos:prefLabel xml:lang="fr">Egypte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Egypt</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:EG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1033">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1033</skos:notation>
+    <skos:prefLabel xml:lang="fr">Suède</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sweden</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6998">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6998</skos:notation>
+    <skos:prefLabel xml:lang="fr">Viet nam</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Viet nam</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:VN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1540">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1540</skos:notation>
+    <skos:prefLabel xml:lang="fr">Samoa américaines</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">American samoa</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3951">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3951</skos:notation>
+    <skos:prefLabel xml:lang="fr">Saint-vincent-et-les grenadines</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saint vincent and the grenadines</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:VC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4568">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4568</skos:notation>
+    <skos:prefLabel xml:lang="fr">Inde</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">India</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4117">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4117</skos:notation>
+    <skos:prefLabel xml:lang="fr">Costa rica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Costa rica</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7926">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7926</skos:notation>
+    <skos:prefLabel xml:lang="fr">Australie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Australia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4895">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4895</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cocos (keeling), îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cocos (keeling) islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9868">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9868</skos:notation>
+    <skos:prefLabel xml:lang="fr">Malawi</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Malawi</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9185">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9185</skos:notation>
+    <skos:prefLabel xml:lang="fr">Turquie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Turkey</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4763">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4763</skos:notation>
+    <skos:prefLabel xml:lang="fr">Slovaquie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Slovakia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7787">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7787</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bosnie-herzégovine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bosnia and herzegovina</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8080">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8080</skos:notation>
+    <skos:prefLabel xml:lang="fr">Zambie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Zambia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ZM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9836">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9836</skos:notation>
+    <skos:prefLabel xml:lang="fr">Caïmans, îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cayman islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4354">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4354</skos:notation>
+    <skos:prefLabel xml:lang="fr">Palestinien occupé, territoire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Palestinian territory, occupied</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1666">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1666</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bhoutan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bhutan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9995">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9995</skos:notation>
+    <skos:prefLabel xml:lang="fr">Népal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nepal</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3519">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3519</skos:notation>
+    <skos:prefLabel xml:lang="fr">Libye</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Libya</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8055">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8055</skos:notation>
+    <skos:prefLabel xml:lang="fr">Anguilla</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Anguilla</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1399">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1399</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mali</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mali</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5436">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5436</skos:notation>
+    <skos:prefLabel xml:lang="fr">Turques-et-Caïques, îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Turks and caicos islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5553">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5553</skos:notation>
+    <skos:prefLabel xml:lang="fr">Terres australes françaises</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">French southern territories</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7480">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7480</skos:notation>
+    <skos:prefLabel xml:lang="fr">Argentine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Argentina</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3933">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3933</skos:notation>
+    <skos:prefLabel xml:lang="fr">Venezuela, république bolivarienne du</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Venezuela, bolivarian republic of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:VE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8494">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8494</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cambodge</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cambodia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6182">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6182</skos:notation>
+    <skos:prefLabel xml:lang="fr">Jamaïque</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Jamaica</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:JM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5271">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5271</skos:notation>
+    <skos:prefLabel xml:lang="fr">Congo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Congo</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4876">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4876</skos:notation>
+    <skos:prefLabel xml:lang="fr">Suriname</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Suriname</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8919">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8919</skos:notation>
+    <skos:prefLabel xml:lang="fr">Espagne</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Spain</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8486">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8486</skos:notation>
+    <skos:prefLabel xml:lang="fr">Thaïlande</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Thailand</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4255">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4255</skos:notation>
+    <skos:prefLabel xml:lang="fr">Ouganda</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Uganda</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:UG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4535">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4535</skos:notation>
+    <skos:prefLabel xml:lang="fr">Rwanda</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Rwanda</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:RW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7263">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7263</skos:notation>
+    <skos:prefLabel xml:lang="fr">Brésil</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Brazil</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9878">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9878</skos:notation>
+    <skos:prefLabel xml:lang="fr">Indonésie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Indonesia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ID"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8107">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8107</skos:notation>
+    <skos:prefLabel xml:lang="fr">Islande</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Iceland</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6239">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6239</skos:notation>
+    <skos:prefLabel xml:lang="fr">Honduras</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Honduras</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:HN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1187">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1187</skos:notation>
+    <skos:prefLabel xml:lang="fr">Danemark</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Denmark</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4281">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4281</skos:notation>
+    <skos:prefLabel xml:lang="fr">Emirats arabes unis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">United arab emirates</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4892">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4892</skos:notation>
+    <skos:prefLabel xml:lang="fr">Norfolk, île</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Norfolk island</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6081">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6081</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guam</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guam</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4040">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4040</skos:notation>
+    <skos:prefLabel xml:lang="fr">Pologne</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Poland</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1789">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1789</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mayotte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mayotte</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:YT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1586">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1586</skos:notation>
+    <skos:prefLabel xml:lang="fr">Groenland</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Greenland</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7485">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7485</skos:notation>
+    <skos:prefLabel xml:lang="fr">Kirghizistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kyrgyzstan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5588">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5588</skos:notation>
+    <skos:prefLabel xml:lang="fr">Ouzbékistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Uzbekistan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:UZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2983">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2983</skos:notation>
+    <skos:prefLabel xml:lang="fr">Belgique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Belgium</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9681">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9681</skos:notation>
+    <skos:prefLabel xml:lang="fr">Brunei darussalam</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Brunei darussalam</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4862">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4862</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bouvet, île</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bouvet island</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7832">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7832</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bahamas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bahamas</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3102">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3102</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guinée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guinea</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2845">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2845</skos:notation>
+    <skos:prefLabel xml:lang="fr">Turkménistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Turkmenistan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1766">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1766</skos:notation>
+    <skos:prefLabel xml:lang="fr">Monténégro</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Montenegro</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ME"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2750">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2750</skos:notation>
+    <skos:prefLabel xml:lang="fr">Singapour</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Singapore</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9708">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9708</skos:notation>
+    <skos:prefLabel xml:lang="fr">Marshall, îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Marshall islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6522">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6522</skos:notation>
+    <skos:prefLabel xml:lang="fr">Montserrat</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Montserrat</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4025">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4025</skos:notation>
+    <skos:prefLabel xml:lang="fr">Macao</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Macao</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2977">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2977</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guyane française</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">French guiana</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8149">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8149</skos:notation>
+    <skos:prefLabel xml:lang="fr">Kiribati</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kiribati</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9337">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9337</skos:notation>
+    <skos:prefLabel xml:lang="fr">Heard-et-îles macdonald, île</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Heard island and mcdonald islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:HM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7313">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7313</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cameroun</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cameroon</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8036">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8036</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mariannes du nord, îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Northern mariana islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1281">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1281</skos:notation>
+    <skos:prefLabel xml:lang="fr">Lesotho</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Lesotho</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:LS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8337">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8337</skos:notation>
+    <skos:prefLabel xml:lang="fr">Réunion</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Réunion</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:RE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1557">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1557</skos:notation>
+    <skos:prefLabel xml:lang="fr">Afghanistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Afghanistan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6863">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6863</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bolivie, l'état plurinational de</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bolivia, plurinational state of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6158">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6158</skos:notation>
+    <skos:prefLabel xml:lang="fr">Croatie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Croatia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5403">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5403</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tanzanie, république-unie de</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tanzania, united republic of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8448">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8448</skos:notation>
+    <skos:prefLabel xml:lang="fr">Iles mineures éloignées des états-unis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">United states minor outlying islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:UM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6627">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6627</skos:notation>
+    <skos:prefLabel xml:lang="fr">Pitcairn</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Pitcairn</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2583">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2583</skos:notation>
+    <skos:prefLabel xml:lang="fr">Barbade</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Barbados</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2639">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2639</skos:notation>
+    <skos:prefLabel xml:lang="fr">Portugal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Portugal</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7851">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7851</skos:notation>
+    <skos:prefLabel xml:lang="fr">Guinée équatoriale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Equatorial guinea</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3675">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3675</skos:notation>
+    <skos:prefLabel xml:lang="fr">Colombie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Colombia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8799">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8799</skos:notation>
+    <skos:prefLabel xml:lang="fr">Ile de man</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Isle of man</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4120">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4120</skos:notation>
+    <skos:prefLabel xml:lang="fr">Erythrée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Eritrea</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:ER"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8248">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8248</skos:notation>
+    <skos:prefLabel xml:lang="fr">Pays-bas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Netherlands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1674">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1674</skos:notation>
+    <skos:prefLabel xml:lang="fr">Moldova, république de</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Moldova, republic of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4665">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4665</skos:notation>
+    <skos:prefLabel xml:lang="fr">Micronésie, états fédérés de</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Micronesia, federated states of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5549">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5549</skos:notation>
+    <skos:prefLabel xml:lang="fr">Sainte-héléne, ascension et tristan da cunha</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saint helena, ascension and tristan da cunha</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6713">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6713</skos:notation>
+    <skos:prefLabel xml:lang="fr">Algérie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Algeria</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8118">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8118</skos:notation>
+    <skos:prefLabel xml:lang="fr">Aruba</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Aruba</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3638">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3638</skos:notation>
+    <skos:prefLabel xml:lang="fr">Madagascar</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Madagascar</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5078">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5078</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bélarus</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Belarus</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6210">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6210</skos:notation>
+    <skos:prefLabel xml:lang="fr">Saint-siège (Etat de la cité du vatican)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Holy see (vatican city state)</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:VA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC7666">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC7666</skos:notation>
+    <skos:prefLabel xml:lang="fr">Ukraine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ukraine</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:UA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2006">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2006</skos:notation>
+    <skos:prefLabel xml:lang="fr">Cap-vert</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cape verde</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9472">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9472</skos:notation>
+    <skos:prefLabel xml:lang="fr">Saint-martin (partie française)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saint martin (french part)</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3917">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3917</skos:notation>
+    <skos:prefLabel xml:lang="fr">Belize</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Belize</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9721">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9721</skos:notation>
+    <skos:prefLabel xml:lang="fr">Pakistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Pakistan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1791">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1791</skos:notation>
+    <skos:prefLabel xml:lang="fr">Burkina faso</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Burkina faso</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5609">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5609</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tonga</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tonga</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3723">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3723</skos:notation>
+    <skos:prefLabel xml:lang="fr">Suisse</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Switzerland</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1022">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1022</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tokelau</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tokelau</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9545">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9545</skos:notation>
+    <skos:prefLabel xml:lang="fr">Corée, république de</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Korea, republic of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8732">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8732</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tchad</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chad</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3798">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3798</skos:notation>
+    <skos:prefLabel xml:lang="fr">Philippines</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Philippines</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6181">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6181</skos:notation>
+    <skos:prefLabel xml:lang="fr">Féroé, îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Faroe islands</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1122">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1122</skos:notation>
+    <skos:prefLabel xml:lang="fr">Finlande</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Finland</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1453">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1453</skos:notation>
+    <skos:prefLabel xml:lang="fr">Belize; China; Allemagne; Italie; France; Japon; Corée, république populaire démocratique de; Taiwan, Province of China; Russie, fédération de; Espagne; Royaume-Uni; Etats-Unis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">New zealand</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1703">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1703</skos:notation>
+    <skos:prefLabel xml:lang="fr">Saint-barthélemy</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saint barthélemy</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8117">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8117</skos:notation>
+    <skos:prefLabel xml:lang="fr">Falkland, îles (malvinas)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Falkland islands (malvinas)</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8594">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8594</skos:notation>
+    <skos:prefLabel xml:lang="fr">Arabie saoudite</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saudi arabia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3731">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3731</skos:notation>
+    <skos:prefLabel xml:lang="fr">Antarctique</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Antarctica</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8171">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8171</skos:notation>
+    <skos:prefLabel xml:lang="fr">Tunisie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tunisia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9464">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9464</skos:notation>
+    <skos:prefLabel xml:lang="fr">Japon</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Japan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:JP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8110">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8110</skos:notation>
+    <skos:prefLabel xml:lang="fr">Irlande</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ireland</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1317">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1317</skos:notation>
+    <skos:prefLabel xml:lang="fr">Yémen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Yemen</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:YE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC8536">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC8536</skos:notation>
+    <skos:prefLabel xml:lang="fr">Maurice</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mauritius</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3358">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3358</skos:notation>
+    <skos:prefLabel xml:lang="fr">Nouvelle-calédonie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">New caledonia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC3607">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC3607</skos:notation>
+    <skos:prefLabel xml:lang="fr">Koweït</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kuwait</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1285">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1285</skos:notation>
+    <skos:prefLabel xml:lang="fr">Soudan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sudan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6879">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6879</skos:notation>
+    <skos:prefLabel xml:lang="fr">Wallis et futuna</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Wallis and futuna</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:WF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC2686">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC2686</skos:notation>
+    <skos:prefLabel xml:lang="fr">Kazakhstan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kazakhstan</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:KZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC1165">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC1165</skos:notation>
+    <skos:prefLabel xml:lang="fr">Iran, république islamique d'</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Iran, islamic republic of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4992">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4992</skos:notation>
+    <skos:prefLabel xml:lang="fr">Malaisie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Malaysia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5461">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5461</skos:notation>
+    <skos:prefLabel xml:lang="fr">Côte d'ivoire</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Côte d'ivoire</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC5849">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC5849</skos:notation>
+    <skos:prefLabel xml:lang="fr">Timor-leste</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Timor-leste</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:TL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6640">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6640</skos:notation>
+    <skos:prefLabel xml:lang="fr">Macédoine, l'ex-république yougoslave de</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Macedonia, the former yugoslav republic of</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC4200">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC4200</skos:notation>
+    <skos:prefLabel xml:lang="fr">Bahreïn</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bahrain</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC6440">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC6440</skos:notation>
+    <skos:prefLabel xml:lang="fr">Arménie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Armenia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">GeographicalCoverage</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9445">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9445</skos:notation>
+    <skos:prefLabel xml:lang="fr">Maldives</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Maldives</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:MV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FGC#FGC9331">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FGC"/>
+    <skos:notation>FGC9331</skos:notation>
+    <skos:prefLabel xml:lang="fr">Estonie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Estonia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:EE"/>
+  </rdf:Description>
+</rdf:RDF>

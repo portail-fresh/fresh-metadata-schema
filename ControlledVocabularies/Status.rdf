@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:pav="http://purl.org/pav/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <skos:ConceptScheme rdf:about="https://portail-fresh.fr/vocab/FSR">
+      <dct:creator rdf:resource="https://portail-fresh.fr/"/>
+      <dct:description xml:lang="en">Terms used to describe the field 'RecordStatus' in the FReSH metadata schema.</dct:description>
+      <dct:description xml:lang="fr">Concepts utilisés pour décrire le champ 'RecordStatus' du schéma de métadonnées FReSH.</dct:description>
+      <dct:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+      <dct:title xml:lang="en">Record status</dct:title>
+      <dct:title xml:lang="fr">Statut de la fiche</dct:title>
+      <pav:createdOn>2026-01-05</pav:createdOn>
+      <pav:lastUpdatedOn>2020-04-16</pav:lastUpdatedOn>
+    </skos:ConceptScheme>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR#FSR3961">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSR"/>
+    <skos:notation>FSR3961</skos:notation>
+    <skos:prefLabel xml:lang="fr">Envoyée pour publication</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Awaiting validation</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fiche finalisée par le contributeur. </skos:definition>
+    <skos:definition xml:lang="en">Record finalized by the contributor.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR#FSR7400">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSR"/>
+    <skos:notation>FSR7400</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mise à jour manuellement</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Updated manually</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fiche initialement importée et mise à jour par l'investigateur principal.</skos:definition>
+    <skos:definition xml:lang="en">Record initially imported and updated by the principal investigator.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR#FSR7478">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSR"/>
+    <skos:notation>FSR7478</skos:notation>
+    <skos:prefLabel xml:lang="fr">Publiée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fiche publiée par l’administrateur.</skos:definition>
+    <skos:definition xml:lang="en">Record published by the administrator.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR#FSR5653">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSR"/>
+    <skos:notation>FSR5653</skos:notation>
+    <skos:prefLabel xml:lang="fr">Brouillon</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Draft</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fiche en cours de création ou modification, avant la validation par le contributeur.</skos:definition>
+    <skos:definition xml:lang="en">Record in the process of being created or modified, before validation by the contributor.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR#FSR5929">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSR"/>
+    <skos:notation>FSR5929</skos:notation>
+    <skos:prefLabel xml:lang="fr">Importée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Imported</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fiche importée depuis une source tierce.</skos:definition>
+    <skos:definition xml:lang="en">Record imported from a third-party source.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR#FSR7458">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSR"/>
+    <skos:notation>FSR7458</skos:notation>
+    <skos:prefLabel xml:lang="fr">Mise à jour automatiquement</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Updated automatically</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fiche initialement importée et mise à jour automatiquement à partir d’une source tierce.</skos:definition>
+    <skos:definition xml:lang="en">Record initially imported and automatically updated from a third-party source.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">Status</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR#FSR5292">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSR"/>
+    <skos:notation>FSR5292</skos:notation>
+    <skos:prefLabel xml:lang="fr">Modifications requises </skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Returned</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fiche retournée vers le contributeur par l’administrateur pour modification.</skos:definition>
+    <skos:definition xml:lang="en">Record returned to the contributor by the administrator for modification.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSR#FSR6622">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSR"/>
+    <skos:notation>FSR6622</skos:notation>
+    <skos:prefLabel xml:lang="fr">Rejetée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Rejected</skos:prefLabel>
+    <skos:definition xml:lang="fr">Fiche dont la publication est refusée définitivement par l’administrateur.</skos:definition>
+    <skos:definition xml:lang="en">Record whose publication is definitively refused by the administrator.</skos:definition>
+  </rdf:Description>
+</rdf:RDF>

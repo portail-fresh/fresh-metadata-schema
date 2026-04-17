@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:pav="http://purl.org/pav/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <skos:ConceptScheme rdf:about="https://portail-fresh.fr/vocab/FSS">
+      <dct:creator rdf:resource="https://portail-fresh.fr/"/>
+      <dct:description xml:lang="en">Terms used to describe the field 'StudyStatus' in the FReSH metadata schema.</dct:description>
+      <dct:description xml:lang="fr">Concepts utilisés pour décrire le champ 'StudyStatus' du schéma de métadonnées FReSH.</dct:description>
+      <dct:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+      <dct:title xml:lang="en">Study status</dct:title>
+      <dct:title xml:lang="fr">Statut de l'étude</dct:title>
+      <pav:createdOn>2026-01-05</pav:createdOn>
+      <pav:lastUpdatedOn>2020-04-16</pav:lastUpdatedOn>
+    </skos:ConceptScheme>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSS#FSS7922">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSS"/>
+    <skos:notation>FSS7922</skos:notation>
+    <skos:prefLabel xml:lang="fr">Étude complétée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Completed study</skos:prefLabel>
+    <skos:definition xml:lang="fr">L'étude est terminée et toutes les données ont été collectées.</skos:definition>
+    <skos:definition xml:lang="en">The study is finished and all data has been collected.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSS#FSS6048">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSS"/>
+    <skos:notation>FSS6048</skos:notation>
+    <skos:prefLabel xml:lang="fr">Inconnu</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unknown</skos:prefLabel>
+    <skos:definition xml:lang="fr">Le statut de l'étude n'est pas connu.</skos:definition>
+    <skos:definition xml:lang="en">The status of the study is unknown.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">StudyStatus</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSS#FSS8739">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSS"/>
+    <skos:notation>FSS8739</skos:notation>
+    <skos:prefLabel xml:lang="fr">Étude en cours</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ongoing study</skos:prefLabel>
+    <skos:definition xml:lang="fr">L'étude est toujours en cours de réalisation ou de collecte de données.</skos:definition>
+    <skos:definition xml:lang="en">The study is still ongoing or data collection is in progress.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FSS#FSS2174">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FSS"/>
+    <skos:notation>FSS2174</skos:notation>
+    <skos:prefLabel xml:lang="fr">Étude arrêtée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Terminated study</skos:prefLabel>
+    <skos:definition xml:lang="fr">L'étude a été interrompue avant son achèvement prévu.</skos:definition>
+    <skos:definition xml:lang="en">The study was stopped before its planned completion.</skos:definition>
+  </rdf:Description>
+</rdf:RDF>
