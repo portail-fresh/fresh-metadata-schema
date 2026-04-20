@@ -25,7 +25,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://portail-fresh.fr/vocab/FDT"/>
     <skos:notation>FDT4538</skos:notation>
-    <skos:prefLabel xml:lang="fr">Publication définissant la base de données et/ou son protocole de collecte (data paper, cohort profile, method/protocol paper, resource paper, data note, registered report...).</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Publication définissant la base de données et/ou son protocole de collecte (article présentant les données, profil de la cohorte, article sur la méthode ou le protocole, article de synthèse, note sur les données, rapport enregistré...).</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Publication defining the database and/or its collection protocol  (data paper, cohort profile, method/protocol paper, resource paper, data note, registered report...).</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://portail-fresh.fr/vocab/FDT#FDT6087">
